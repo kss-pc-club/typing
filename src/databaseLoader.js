@@ -21,7 +21,7 @@ const progressbarSet = async p=>{
 const fileLoad = async ()=>{
 	for(let i=0; i<loadFile.length; i++){
 		const e = loadFile[i];
-		await fetch(`/database/${e}.json`).then(r=>r.text()).then(t=>JSON.parse(t)).then(j=>{
+		await fetch(`./database/${e}.json`).then(r=>r.text()).then(t=>JSON.parse(t)).then(j=>{
 			for(let i=0; i<j.length; i++){
 				window.database.push(j[i]);
 			}
