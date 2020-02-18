@@ -1,0 +1,65 @@
+* {
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+
+.container.showing {
+  display: -ms-grid;
+  display: grid;
+}
+
+.container#loader {
+  -ms-grid-columns: 1fr auto 1fr;
+      grid-template-columns: 1fr auto 1fr;
+  -ms-grid-rows: 1fr auto 1fr;
+      grid-template-rows: 1fr auto 1fr;
+      grid-template-areas: ". . ." ". a ." ". . .";
+}
+
+.container#loader div#center {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: a;
+}
+
+.container#loader div#center p {
+  margin: 16px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.container#loader div#center p#progressMsg {
+  font-size: 18px;
+}
+
+.container#loader div#center p#progressMsg::before {
+  content: "Resource Loaded: ";
+}
+
+.container#loader div#center div#bar_cont {
+  width: 400px;
+  height: 36px;
+  background-color: #eee;
+  border-radius: 18px;
+}
+
+.container#loader div#center div#bar_cont div#bar {
+  width: 0%;
+  height: 100%;
+  background-color: #448aff;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+/*# sourceMappingURL=style.css.map */
