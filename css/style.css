@@ -26,6 +26,7 @@ html, body {
 .container div.center {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
   grid-area: a;
 }
 
@@ -64,5 +65,52 @@ html, body {
   background-color: #448aff;
   border-top-left-radius: 18px;
   border-bottom-left-radius: 18px;
+}
+
+.container#main {
+      grid-template-areas: "type time time time" "eng  eng  ph   next" "eng  eng  ja   next" "key  key  key  key";
+  -ms-grid-columns: (calc(100% / 4))[4];
+      grid-template-columns: repeat(4, calc(100% / 4));
+  -ms-grid-rows: 48px 1fr 300px;
+      grid-template-rows: 48px 1fr 300px;
+  padding: 16px;
+}
+
+.container#main .keyboard {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: key;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "q q w w e e r r t t y y u u i i o o p p" ". a a s s d d f f g g h h j j k k l l ." ". . . z z x x c c v v b b n n m m . . .";
+  gap: 12px;
+  -ms-grid-columns: (calc((100% - (12px * 19))/20))[20];
+      grid-template-columns: repeat(20, calc((100% - (12px * 19))/20));
+  -ms-grid-rows: (calc((100% - 24px)/3))[3];
+      grid-template-rows: repeat(3, calc((100% - 24px)/3));
+}
+
+.container#main .keyboard .key {
+  font-size: 36px;
+  -webkit-box-shadow: 0px 0px 10px 0px #aaa;
+          box-shadow: 0px 0px 10px 0px #aaa;
+  width: 92px;
+  height: 92px;
+  margin: auto;
+  text-align: center;
+  padding: 19px;
+  border-radius: 50%;
+}
+
+.container#main .keyboard .key.pressing {
+  -webkit-box-shadow: inset 0px 0px 10px 0px #aaa;
+          box-shadow: inset 0px 0px 10px 0px #aaa;
+  font-size: 32px;
+  padding: 22px;
+}
+
+.container#main .keyboard .key.next {
+  background-color: #f0f8ff;
 }
 /*# sourceMappingURL=style.css.map */

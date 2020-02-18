@@ -46,4 +46,43 @@ html, body{
 				}
 			}
 	}
+	&#main{
+		grid-template-areas:
+			"type time time time"
+			"eng  eng  ph   next"
+			"eng  eng  ja   next"
+			"key  key  key  key";
+		grid-template-columns: repeat(4, calc(100% / 4));
+		grid-template-rows: 48px 1fr 300px;
+		padding: 16px;
+		.keyboard{
+			grid-area: key;
+			display: grid;
+			grid-template-areas:
+				"q q w w e e r r t t y y u u i i o o p p"
+				". a a s s d d f f g g h h j j k k l l ."
+				". . . z z x x c c v v b b n n m m . . .";
+			gap: 12px;
+			grid-template-columns: repeat(20, calc((100% - (12px * 19))/20));
+			grid-template-rows: repeat(3, calc((100% - 24px)/3));
+			.key{
+				font-size: 36px;
+				box-shadow: 0px 0px 10px 0px #aaa;
+				width: 92px;
+				height: 92px;
+				margin: auto;
+				text-align: center;
+				padding: 19px;
+				border-radius: 50%;
+				&.pressing{
+					box-shadow: inset 0px 0px 10px 0px #aaa;
+					font-size: 32px;
+					padding: 22px;
+				}
+				&.next{
+					background-color: #f0f8ff;
+				}
+			}
+		}
+	}
 }
