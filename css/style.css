@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Kosugi+Maru|M+PLUS+Rounded+1c|Noto+Sans+JP|Poppins|Sawarabi+Mincho&display=swap");
 * {
   font-size: 16px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Poppins", 'Kosugi Maru', 'M PLUS Rounded 1c', "Noto Sans Japanese", sans-serif;
+  font-weight: lighter;
 }
 
 html, body {
@@ -20,7 +23,13 @@ html, body {
   display: grid;
 }
 
-.container#loader {
+.container div.center {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: a;
+}
+
+.container#loader, .container#start {
   -ms-grid-columns: 1fr auto 1fr;
       grid-template-columns: 1fr auto 1fr;
   -ms-grid-rows: 1fr auto 1fr;
@@ -28,34 +37,28 @@ html, body {
       grid-template-areas: ". . ." ". a ." ". . .";
 }
 
-.container#loader div#center {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: a;
-}
-
-.container#loader div#center p {
+.container#loader p, .container#start p {
   margin: 16px;
   font-size: 36px;
   text-align: center;
 }
 
-.container#loader div#center p#progressMsg {
+.container#loader p#progressMsg, .container#start p#progressMsg {
   font-size: 18px;
 }
 
-.container#loader div#center p#progressMsg::before {
+.container#loader p#progressMsg::before, .container#start p#progressMsg::before {
   content: "Resource Loaded: ";
 }
 
-.container#loader div#center div#bar_cont {
+.container#loader div#bar_cont, .container#start div#bar_cont {
   width: 400px;
   height: 36px;
   background-color: #eee;
   border-radius: 18px;
 }
 
-.container#loader div#center div#bar_cont div#bar {
+.container#loader div#bar_cont div#bar, .container#start div#bar_cont div#bar {
   width: 0%;
   height: 100%;
   background-color: #448aff;

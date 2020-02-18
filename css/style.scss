@@ -1,4 +1,11 @@
-*{ font-size: 16px; box-sizing: border-box; }
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru|M+PLUS+Rounded+1c|Noto+Sans+JP|Poppins|Sawarabi+Mincho&display=swap');
+
+*{
+	font-size: 16px;
+	box-sizing: border-box;
+	font-family: "Poppins", 'Kosugi Maru', 'M PLUS Rounded 1c', "Noto Sans Japanese", sans-serif;
+	font-weight: lighter;
+}
 html, body{
 	margin: 0;
 	padding: 0;
@@ -10,12 +17,12 @@ html, body{
 	display: none;
 	&.showing{ display: grid; }
 
-	&#loader{
+	div.center{ grid-area: a; }
+
+	&#loader, &#start{
 		grid-template-columns: 1fr auto 1fr;
 		grid-template-rows: 1fr auto 1fr;
 		grid-template-areas: ". . ." ". a ." ". . .";
-		div#center{
-			grid-area: a;
 			p{
 				margin: 16px;
 				font-size: 36px;
@@ -38,6 +45,5 @@ html, body{
 					border-bottom-left-radius: 18px;
 				}
 			}
-		}
 	}
 }

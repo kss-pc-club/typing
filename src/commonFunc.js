@@ -15,7 +15,7 @@ const sleep = t => new Promise(r=>setTimeout(r,t));
 const fade = async (b,a)=>{
 	$(b).fadeOut(500);
 	await sleep(500);
-	$(a).fadeIn(500);
+	$(a).fadeIn(500).css("display", "grid");
 	await sleep(499);
 	$(b).removeClass("showing").removeAttr("style");
 	$(a).addClass("showing").removeAttr("style");
