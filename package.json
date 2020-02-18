@@ -1,5 +1,5 @@
 {
-  "name": "Typing",
+  "name": "typing",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,7 @@
   "author": "Asa",
   "license": "MIT",
   "dependencies": {
+    "jquery": "^3.4.1",
     "webpack": "^4.41.6"
   },
   "devDependencies": {
