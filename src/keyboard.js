@@ -14,7 +14,13 @@ const keyboardGen = ()=>{
 const code2char = c=>(Number(c) - 55).toString(36);
 
 
-window.addEventListener("keydown", e=>{	if(e.keyCode >= 65 && e.keyCode <= 90){ $(`.key#${code2char(e.keyCode)}`).addClass("pressing"); } });
-window.addEventListener("keyup", e=>{ if(e.keyCode >= 65 && e.keyCode <= 90){ $(`.key#${code2char(e.keyCode)}`).removeClass("pressing"); } });
+window.addEventListener("keydown", e=>{
+	e.preventDefault();
+	if(e.keyCode >= 65 && e.keyCode <= 90){ $(`.key#${code2char(e.keyCode)}`).addClass("pressing"); }
+});
+window.addEventListener("keyup", e=>{
+	e.preventDefault();
+	if(e.keyCode >= 65 && e.keyCode <= 90){ $(`.key#${code2char(e.keyCode)}`).removeClass("pressing"); }
+});
 
 export {keyboardGen, code2char}
