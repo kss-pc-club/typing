@@ -1,0 +1,253 @@
+[{
+	"en": "addr",
+	"ja": "アドレス・番地[n]",
+	"ph": "address"
+}, {
+	"en": "admin",
+	"ja": "管理者[n]",
+	"ph": "administrator"
+}, {
+	"en": "app",
+	"ja": "アプリ[n]",
+	"ph": "application"
+},{
+	"en": "arg(s)",
+	"ja": "引数[n]",
+	"ph": "argument(s)"
+},{
+	"en": "async",
+	"ja": "非同期な[adj]",
+	"ph": "asynchronous"
+},{
+	"en": "attr(s)",
+	"ja": "属性[n]",
+	"ph": "attribute(s)"
+},{
+	"en": "auth",
+	"ja": "権限付与[n]\n認証[n]",
+	"ph": "authorization\nauthentication"
+},{
+	"en": "auto",
+	"ja": "自動的な[adj]\n自動的に[adv]",
+	"ph": "automatic\nautomatically"
+},{
+	"en": "cert",
+	"ja": "認証された[adj]\n証明書[n]",
+	"ph": "certified\ncertificate"
+},{
+	"en": "char",
+	"ja": "文字[n]",
+	"ph": "character"
+},{
+	"en": "cmd",
+	"ja": "コマンド・命令(する)[n,v]",
+	"ph": "command"
+},{
+	"en": "config",
+	"ja": "構成[n]",
+	"ph": "configuration"
+},{
+	"en": "conn",
+	"ja": "接続[n]",
+	"ph": "connection"
+},{
+	"en": "ctrl",
+	"ja": "操作する[v]",
+	"ph": "control"
+},{
+	"en": "cur",
+	"ja": "現在の[adj]\nカーソル[n]",
+	"ph": "current\ncursor"
+},{
+	"en": "db",
+	"ja": "データベース[n]",
+	"ph": "database"
+},{
+	"en": "deps",
+	"ja": "依存関係・依存しているもの[n]",
+	"ph": "dependencies"
+},{
+	"en": "dest",
+	"ja": "目的地・行先[n]",
+	"ph": "destination"
+},{
+	"en": "dev",
+	"ja": "開発者[n]\n開発すること[n]",
+	"ph": "developer\ndevelopment"
+},{
+	"en": "dict",
+	"ja": "辞書[n]",
+	"ph": "dictionary"
+},{
+	"en": "dist",
+	"ja": "配布する[v]",
+	"ph": "distribute"
+},{
+	"en": "diff",
+	"ja": "違い[n]",
+	"ph": "difference"
+},{
+	"en": "dir",
+	"ja": "ディレクトリ(記憶メディア上の階層型リスト)[n]",
+	"ph": "directory"
+},{
+	"en": "doc(s)",
+	"ja": "ドキュメント・文書[n]",
+	"ph": "document(s)"
+},{
+	"en": "enum",
+	"ja": "列挙すること・数え上げること[n]",
+	"ph": "enumeration"
+},{
+	"en": "env",
+	"ja": "環境[n]",
+	"ph": "environment"
+},{
+	"en": "err",
+	"ja": "エラー[n]",
+	"ph": "error"
+},{
+	"en": "exec",
+	"ja": "実行[n]",
+	"ph": "execution"
+},{
+	"en": "fn",
+	"ja": "特徴・関数[n]",
+	"ph": "function"
+},{
+	"en": "gen",
+	"ja": "世代[n]",
+	"ph": "generation"
+},{
+	"en": "id",
+	"ja": "識別すること[n]\n識別子[n]",
+	"ph": "identification\nidentifier"
+},{
+	"en": "idx",
+	"ja": "見出し・インデックス[n]",
+	"ph": "index"
+},{
+	"en": "impl",
+	"ja": "実装・実用化[n]",
+	"ph": "implementation"
+},{
+	"en": "info",
+	"ja": "情報[n](不可算)",
+	"ph": "information"
+},{
+	"en": "init",
+	"ja": "初期化する[v]\n初期化[n]",
+	"ph": "initialize\ninitialization"
+},{
+	"en": "int",
+	"ja": "整数(特に32bit型)[n]",
+	"ph": "integer"
+},{
+	"en": "lib",
+	"ja": "図書館・ライブラリ[n]",
+	"ph": "library"
+},{
+	"en": "max",
+	"ja": "最大値[n]",
+	"ph": "maximum"
+},{
+	"en": "min",
+	"ja": "最小値[n]\n(時間系) 分[n]",
+	"ph": "minimum\nminute(s)"
+},{
+	"en": "msg(s)",
+	"ja": "伝言・メッセージ[n]",
+	"ph": "message(s)"
+},{
+	"en": "num",
+	"ja": "数字[n]",
+	"ph": "number"
+},{
+	"en": "obj",
+	"ja": "オブジェクト(一塊のデータ)[n]",
+	"ph": "object"
+},{
+	"en": "op",
+	"ja": "操作・稼働[n]\n稼働している[adj]",
+	"ph": "operation\noperational"
+},{
+	"en": "opt(s)",
+	"ja": "選択肢・オプション[n]",
+	"ph": "option(s)"
+},{
+	"en": "param(s)",
+	"ja": "媒介変数・パラメータ[n]",
+	"ph": "parameter(s)"
+},{
+	"en": "pos",
+	"ja": "場所[v]・位置を定める[v]",
+	"ph": "position"
+},{
+	"en": "prev",
+	"ja": "以前の[adj]",
+	"ph": "previous"
+},{
+	"en": "prop(s)",
+	"ja": "資産・持ち物・プロパティ[n]",
+	"ph": "property(-ies)"
+},{
+	"en": "ref(s)",
+	"ja": "参照・参考・リファレンス[n]",
+	"ph": "reference(s)"
+},{
+	"en": "regex",
+	"ja": "正規表現[n]",
+	"ph": "regular expression"
+},{
+	"en": "repo(s)",
+	"ja": "レポジトリ・倉庫[n]",
+	"ph": "repository(-ies)"
+},{
+	"en": "req",
+	"ja": "リクエスト・要求[n]",
+	"ph": "request"
+},{
+	"en": "res(p)",
+	"ja": "反応・レスポンス[n]",
+	"ph": "response"
+},{
+	"en": "ret",
+	"ja": "返る・帰る・戻る[v]",
+	"ph": "return"
+},{
+	"en": "spec",
+	"ja": "仕様・スペック[n]",
+	"ph": "specification"
+},{
+	"en": "src",
+	"ja": "出所・起源・ソース[n]",
+	"ph": "source"
+},{
+	"en": "str",
+	"ja": "文字列・弦[n]",
+	"ph": "string"
+},{
+	"en": "sync",
+	"ja": "同期性な[adj]\n同期する[v]",
+	"ph": "synchronous\nsynchronize"
+},{
+	"en": "t(e)mp",
+	"ja": "一時的な[adj]",
+	"ph": "temporary"
+},{
+	"en": "usr",
+	"ja": "ユーザー・利用者[n]",
+	"ph": "user"
+},{
+	"en": "util(s)",
+	"ja": "ユーティリティ・実用的なもの[n]",
+	"ph": "utility(-ies)"
+},{
+	"en": "val",
+	"ja": "値[n]",
+	"ph": "value"
+},{
+	"en": "var(s)",
+	"ja": "変数[n]・可変の[adj]",
+	"ph": "variable(s)"
+}]

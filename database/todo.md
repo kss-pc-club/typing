@@ -69,4 +69,4 @@
    - [ ] y
  - [x] acronym (頭字語)
  - [ ] reserved (予約語)
- - [ ] short (略語)
+ - [x] short (略語)
