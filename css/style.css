@@ -126,6 +126,23 @@ html, body {
   -ms-grid-column-span: 3;
   grid-area: time;
   font-size: 28px;
+  text-align: right;
+}
+
+.container#main .time div.timeRemainingBar_container {
+  display: inline-block;
+  width: 400px;
+  height: 36px;
+  background-color: #eee;
+  border-radius: 18px;
+  margin: auto;
+  border: #aaa solid 1px;
+}
+
+.container#main .time div.timeRemainingBar_container div#bar {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
 }
 
 .container#main .eng {
@@ -156,6 +173,7 @@ html, body {
   -ms-grid-column: 3;
   grid-area: ph;
   font-size: 22px;
+  white-space: pre-wrap;
 }
 
 .container#main .jap {
@@ -163,6 +181,7 @@ html, body {
   -ms-grid-column: 3;
   grid-area: ja;
   font-size: 20px;
+  white-space: pre-wrap;
 }
 
 .container#main .next {
