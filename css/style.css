@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Kosugi+Maru|M+PLUS+Rounded+1c|Noto+Sans+JP|Poppins|Sawarabi+Mincho&display=swap");
 * {
   font-size: 16px;
@@ -69,11 +70,107 @@ html, body {
 
 .container#main {
       grid-template-areas: "type time time time" "eng  eng  ph   next" "eng  eng  ja   next" "key  key  key  key";
-  -ms-grid-columns: (calc(100% / 4))[4];
-      grid-template-columns: repeat(4, calc(100% / 4));
-  -ms-grid-rows: 48px 1fr 300px;
-      grid-template-rows: 48px 1fr 300px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 42px 1fr 300px;
+      grid-template-rows: 42px 1fr 300px;
+  gap: 8px;
   padding: 16px;
+}
+
+.container#main > *:not(.typed):not(.time):not(.keyboard) {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto 1fr;
+      grid-template-columns: 1fr auto 1fr;
+  -ms-grid-rows: 1fr auto 1fr;
+      grid-template-rows: 1fr auto 1fr;
+      grid-template-areas: ". . ." ". a ." ". . .";
+  position: relative;
+  -webkit-box-shadow: inset 0px 0px 10px 0px #aaa;
+          box-shadow: inset 0px 0px 10px 0px #aaa;
+  border-radius: 20px;
+  padding: 16px;
+}
+
+.container#main > * > * {
+  font-size: inherit;
+}
+
+.container#main label {
+  position: absolute;
+  top: -8px;
+  left: 24px;
+  font-size: 22px;
+  height: 22px;
+  max-width: 90%;
+  background-color: #fff;
+  color: #448aff;
+}
+
+.container#main .typed {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: type;
+  font-size: 28px;
+}
+
+.container#main .typed::before {
+  content: "入力文字数：";
+}
+
+.container#main .time {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: time;
+  font-size: 28px;
+}
+
+.container#main .eng {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: eng;
+  font-size: 4vw;
+}
+
+.container#main .eng span.typed_char {
+  color: #aaa;
+  font-size: inherit;
+}
+
+.container#main .eng span.next_char {
+  font-size: inherit;
+  color: #388e3c;
+}
+
+.container#main .eng span.remaining_char {
+  font-size: inherit;
+}
+
+.container#main .pho {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: ph;
+  font-size: 22px;
+}
+
+.container#main .jap {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: ja;
+  font-size: 20px;
+}
+
+.container#main .next {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 4;
+  grid-area: next;
+  font-size: 20px;
 }
 
 .container#main .keyboard {
@@ -112,6 +209,6 @@ html, body {
 }
 
 .container#main .keyboard .key.next {
-  background-color: #f0f8ff;
+  background-color: #faebd7;
 }
 /*# sourceMappingURL=style.css.map */
