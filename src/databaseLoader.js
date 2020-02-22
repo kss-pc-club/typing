@@ -1,7 +1,9 @@
 const $ = require("jquery");
 import {sleep, fade} from "./commonFunc";
 
+// 読み込むファイル
 const loadFile = [
+	// ベーシック系
 	"basic/a",
 	"basic/b",
 	"basic/c",
@@ -24,6 +26,7 @@ const loadFile = [
 	"basic/v",
 	"basic/w",
 
+	// アドバンスト系
 	"advanced/a",
 	"advanced/b",
 	"advanced/c",
@@ -47,6 +50,7 @@ const loadFile = [
 	"advanced/w",
 	"advanced/z",
 
+	// 前提系
 	"premise/a",
 	"premise/b",
 	"premise/c",
@@ -71,6 +75,7 @@ const loadFile = [
 	"premise/w",
 	"premise/y",
 
+	// その他
 	"acronym",
 	"reserved",
 	"short"
@@ -99,7 +104,7 @@ const fileLoad = async ()=>{
 			for(let i=0; i<j.length; i++){
 				window.database.push(j[i]);
 			}
-		}).catch(r=>console.error(`File: ${e}.json`,r));
+		}).catch(r=>console.error(`File: ${e}.json\n`,r));
 		await progressbarSet(i+1);
 	}
 	console.groupEnd("Database Load");
