@@ -21,4 +21,12 @@ const fade = async (b,a)=>{
 	$(a).addClass("showing").removeAttr("style");
 }
 
+Array.prototype.min = function(){
+	let m=1e5;
+	this.forEach(_=>{
+		m = (_<m) ? _ : m;
+	});
+	return m;
+}
+
 export {sleep, fade}
