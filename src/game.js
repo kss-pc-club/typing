@@ -12,7 +12,6 @@ let datas = {
 let typedChar = "";
 let nowChar = "";
 let remainingChar = "";
-let nextWord = "";
 
 const colors = [{
 	// 残り時間が5%以下なら#f00
@@ -65,29 +64,25 @@ const mainGame = ()=>{
 				remainingChar = remainingChar.substring(1);
 			}
 			else{
-				if(window.database.length === 0 && !nextWord.en){
+				if(window.database.length === 0){
 					alert("どうやらデータベースのすべてを打ち終わってしまったようです。");
 					return;
 				}
+				// ランダム生成
+				const rand = Math.floor(Math.random() * window.database.length);
+				let nextWord = window.database[rand];
+
+				// カッコ内を取り除く
+				let tmp = nextWord.en.split("("); nextWord.en = tmp[0]; tmp = tmp[1]; nextWord.en += (tmp)?tmp.split(")")[1]:"";
+
+				window.database.splice(rand,1);
+
 				// 残りキー = 次の単語
 				remainingChar = nextWord.en.substring(1);
 				nowChar = nextWord.en[0];
 				$(".container#main .jap div.center").text(nextWord.ja);
 				$(".container#main .pho div.center").text(nextWord.ph);
 				typedChar = "";
-
-				if(window.database.length !== 0){
-					// ランダム生成
-					const rand = Math.floor(Math.random() * window.database.length);
-					nextWord = window.database[rand];
-
-					// カッコ内を取り除く
-					let tmp = nextWord.en.split("("); nextWord.en = tmp[0]; tmp = tmp[1]; nextWord.en += (tmp)?tmp.split(")")[1]:"";
-
-					window.database.splice(rand,1);
-				}
-				else{ nextWord = {en: "", ja: "", ph: ""} }
-				$(".container#main .next div.center").text(nextWord.en);
 			}
 
 			// 表示
@@ -131,31 +126,21 @@ const mainGame = ()=>{
 	},100);
 
 	// 最初
-	for(let i=0; i<2; i++){
-		// ランダム生成
-		const rand = Math.round(Math.random() * window.database.length);
-		const e = window.database[rand]
-		window.database.splice(rand,1);
-		if(i===0){
-			typedChar = "";
-			remainingChar = e.en;
-			let tmp = remainingChar.split("("); remainingChar = tmp[0]; tmp = tmp[1]; remainingChar += (tmp)?tmp.split(")")[1]:"";
+	const rand = Math.round(Math.random() * window.database.length);
+	const e = window.database[rand]
+	window.database.splice(rand,1);
+	typedChar = "";
+	remainingChar = e.en;
+	let tmp = remainingChar.split("("); remainingChar = tmp[0]; tmp = tmp[1]; remainingChar += (tmp)?tmp.split(")")[1]:"";
 
-			nowChar = remainingChar[0];
-			remainingChar = remainingChar.substring(1);
-			$(".container#main .jap div.center").text(e.ja);
-			$(".container#main .pho div.center").text(e.ph);
-			$(".container#main .eng span.typed_char").text("");
-			$(".container#main .eng span.next_char").text(nowChar);
-			$(".container#main .eng span.remaining_char").text(remainingChar);
-			$(".container#main .keyboard .key#"+nowChar.toLowerCase()).addClass("next");
-		}
-		else{
-			let tmp = e.en.split("("); e.en = tmp[0]; tmp = tmp[1]; e.en += (tmp)?tmp.split(")")[1]:"";
-			nextWord = e;
-			$(".container#main .next div.center").text(nextWord.en);
-		}
-	}
+	nowChar = remainingChar[0];
+	remainingChar = remainingChar.substring(1);
+	$(".container#main .jap div.center").text(e.ja);
+	$(".container#main .pho div.center").text(e.ph);
+	$(".container#main .eng span.typed_char").text("");
+	$(".container#main .eng span.next_char").text(nowChar);
+	$(".container#main .eng span.remaining_char").text(remainingChar);
+	$(".container#main .keyboard .key#"+nowChar.toLowerCase()).addClass("next");
 };
 
 export {mainGame};

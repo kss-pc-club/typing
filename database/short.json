@@ -31,6 +31,10 @@
 	"ja": "自動的な[adj]\n自動的に[adv]",
 	"ph": "automatic\nautomatically"
 },{
+	"en": "calc",
+	"ja": "計算する[v]",
+	"ph": "calculate"
+},{
 	"en": "cert",
 	"ja": "認証された[adj]\n証明書[n]",
 	"ph": "certified\ncertificate"

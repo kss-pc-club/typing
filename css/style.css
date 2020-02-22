@@ -31,7 +31,7 @@ html, body {
   grid-area: a;
 }
 
-.container#loader, .container#start {
+.container#loader, .container#start, .container#end {
   -ms-grid-columns: 1fr auto 1fr;
       grid-template-columns: 1fr auto 1fr;
   -ms-grid-rows: 1fr auto 1fr;
@@ -39,28 +39,28 @@ html, body {
       grid-template-areas: ". . ." ". a ." ". . .";
 }
 
-.container#loader p, .container#start p {
+.container#loader p, .container#start p, .container#end p {
   margin: 16px;
   font-size: 36px;
   text-align: center;
 }
 
-.container#loader p#progressMsg, .container#start p#progressMsg {
+.container#loader p#progressMsg, .container#start p#progressMsg, .container#end p#progressMsg {
   font-size: 18px;
 }
 
-.container#loader p#progressMsg::before, .container#start p#progressMsg::before {
+.container#loader p#progressMsg::before, .container#start p#progressMsg::before, .container#end p#progressMsg::before {
   content: "Resource Loaded: ";
 }
 
-.container#loader div#bar_cont, .container#start div#bar_cont {
+.container#loader div#bar_cont, .container#start div#bar_cont, .container#end div#bar_cont {
   width: 400px;
   height: 36px;
   background-color: #eee;
   border-radius: 18px;
 }
 
-.container#loader div#bar_cont div#bar, .container#start div#bar_cont div#bar {
+.container#loader div#bar_cont div#bar, .container#start div#bar_cont div#bar, .container#end div#bar_cont div#bar {
   width: 0%;
   height: 100%;
   background-color: #448aff;
@@ -69,9 +69,9 @@ html, body {
 }
 
 .container#main {
-      grid-template-areas: "type time time time" "eng  eng  ph   next" "eng  eng  ja   next" "key  key  key  key";
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-areas: "type time" "eng  ph  " "eng  ja  " "key  key";
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 42px 1fr 300px;
       grid-template-rows: 42px 1fr 300px;
   gap: 8px;
@@ -123,7 +123,6 @@ html, body {
 .container#main .time {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
   grid-area: time;
   font-size: 28px;
   text-align: right;
@@ -149,9 +148,8 @@ html, body {
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: eng;
-  font-size: 4vw;
+  font-size: 5vw;
 }
 
 .container#main .eng span.typed_char {
@@ -170,32 +168,24 @@ html, body {
 
 .container#main .pho {
   -ms-grid-row: 2;
-  -ms-grid-column: 3;
+  -ms-grid-column: 2;
   grid-area: ph;
-  font-size: 22px;
+  font-size: 28px;
   white-space: pre-wrap;
 }
 
 .container#main .jap {
   -ms-grid-row: 3;
-  -ms-grid-column: 3;
+  -ms-grid-column: 2;
   grid-area: ja;
-  font-size: 20px;
+  font-size: 24px;
   white-space: pre-wrap;
-}
-
-.container#main .next {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 4;
-  grid-area: next;
-  font-size: 20px;
 }
 
 .container#main .keyboard {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
+  -ms-grid-column-span: 2;
   grid-area: key;
   display: -ms-grid;
   display: grid;
@@ -229,5 +219,9 @@ html, body {
 
 .container#main .keyboard .key.next {
   background-color: #faebd7;
+}
+
+.container#end .center p {
+  font-size: 10vw;
 }
 /*# sourceMappingURL=style.css.map */

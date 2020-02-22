@@ -20,7 +20,7 @@ html, body{
 
 	div.center{ grid-area: a; }
 
-	&#loader, &#start{
+	&#loader, &#start, &#end{
 		grid-template-columns: 1fr auto 1fr;
 		grid-template-rows: 1fr auto 1fr;
 		grid-template-areas: ". . ." ". a ." ". . .";
@@ -49,11 +49,11 @@ html, body{
 	}
 	&#main{
 		grid-template-areas:
-			"type time time time"
-			"eng  eng  ph   next"
-			"eng  eng  ja   next"
-			"key  key  key  key";
-		grid-template-columns: 1fr 1fr 1fr 1fr;
+			"type time"
+			"eng  ph  "
+			"eng  ja  "
+			"key  key";
+		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 42px 1fr 300px;
 		gap: 8px;
 		padding: 16px;
@@ -109,7 +109,7 @@ html, body{
 		}
 		.eng{
 			grid-area: eng;
-			font-size: 4vw;
+			font-size: 5vw;
 			span.typed_char{
 				color: #aaa;
 				font-size: inherit;
@@ -124,17 +124,13 @@ html, body{
 		}
 		.pho{
 			grid-area: ph;
-			font-size: 22px;
+			font-size: 28px;
 			white-space: pre-wrap;
 		}
 		.jap{
 			grid-area: ja;
-			font-size: 20px;
+			font-size: 24px;
 			white-space: pre-wrap;
-		}
-		.next{
-			grid-area: next;
-			font-size: 20px;
 		}
 		.keyboard{
 			grid-area: key;
@@ -166,5 +162,8 @@ html, body{
 				}
 			}
 		}
+	}
+	&#end .center p{
+		font-size: 10vw;
 	}
 }
