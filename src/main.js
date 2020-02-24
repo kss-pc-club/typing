@@ -4,7 +4,22 @@ import {sleep} from "./commonFunc";
 import {mainGame} from "./game";
 const $ = require("jquery");
 
+window.addEventListener("resize", e=>{
+	e.preventDefault();
+	if(window.innerWidth <= 900){
+		alert("ウィンドウの幅が900px以上の端末でプレイしてください。\n直前に表示されていたページに戻ります。");
+		history.back();
+		return;
+	}
+	return false;
+})
+
 document.addEventListener("DOMContentLoaded", ()=>{
+	if(window.innerWidth <= 900){
+		alert("ウィンドウの幅が900px以上の端末でプレイしてください。\n直前に表示されていたページに戻ります。");
+		history.back();
+		return;
+	}
 
 	// Loader の進捗
 	progressbarSet(0);
