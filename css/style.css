@@ -72,8 +72,8 @@ html, body {
       grid-template-areas: "type type" "eng  ph  " "eng  ja  " "key  key";
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 42px 1fr 300px;
-      grid-template-rows: 42px 1fr 300px;
+  -ms-grid-rows: 42px 1fr 1fr 250px;
+      grid-template-rows: 42px 1fr 1fr 250px;
   gap: 8px;
   padding: 16px;
 }
