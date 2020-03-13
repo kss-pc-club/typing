@@ -39,8 +39,26 @@ document.addEventListener("DOMContentLoaded", ()=>{
 			// このEventListenerを削除
 			window.removeEventListener("keydown", pressStart);
 
+
+			// 設定を反映
+			if($("input#hideEn").prop("checked") === true){
+				console.log("hideEn");
+				$(".container#main div.eng .center span:not(.typed_char)").css("color", "#fff");
+			}
+			if($("input#hideJa").prop("checked") === true){
+				console.log("hideJa");
+				$(".container#main div.jap .center").css("color", "#fff");
+			}
+			if($("input#hidePh").prop("checked") === true){
+				console.log("hidePh");
+				$(".container#main div.pho .center").css("color", "#fff");
+			}
+
+			console.log($(".container#start div.note, .container#start p#p2s"));
+			$(".container#start div#note, .container#start p#p2s").remove();
+
 			// ここには[Press Space to Start]の<p>が入る
-			const $e = $(".container#start p");
+			const $e = $(".container#start p#logo");
 
 			$e.text("3");
 			await sleep(1000);
