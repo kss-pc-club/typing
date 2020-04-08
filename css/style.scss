@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru|M+PLUS+Rounded+1c|Noto+Sans+JP|Poppins|Sawarabi+Mincho|Material+Icons&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=M+PLUS+Rounded+1c&family=Noto+Sans+JP&family=Poppins&family=Sawarabi+Mincho&family=Space+Mono&family=Material+Icons&display=swap');
 *{
+	--defaultFont: "Poppins", 'Kosugi Maru', 'M PLUS Rounded 1c', "Noto Sans JP", sans-serif;
+	--sameWidthFont: "Noto Sans JP", "Poppins", 'Kosugi Maru', 'M PLUS Rounded 1c', sans-serif;
+
 	font-size: 16px;
 	box-sizing: border-box;
-	font-family: "Poppins", 'Kosugi Maru', 'M PLUS Rounded 1c', "Noto Sans Japanese", sans-serif;
+	font-family: var(--defaultFont);
 	font-weight: lighter;
 }
 html, body{
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 
 
@@ -29,8 +32,12 @@ html, body{
 			font-size: 36px;
 			text-align: center;
 			&#progressMsg{
-				&::before{ content: "Resource Loaded: "; }
+				&::before{
+					font-family: var(--defaultFont);
+					content: "Resource Loaded: ";
+				}
 				font-size: 18px;
+				font-family: var(--sameWidthFont);
 			}
 		}
 		div#bar_cont{
@@ -42,14 +49,13 @@ html, body{
 				width: 0%;
 				height: 100%;
 				background-color: #448aff;
-				border-top-left-radius: 18px;
-				border-bottom-left-radius: 18px;
+				border-radius: 18px;
 			}
 		}
 		div#note{
 			height: 300px;
 			overflow-y: scroll;
-			box-shadow: 0px 5px 8px 0px #aaa;
+			box-shadow: 0px 3px 8px 0px #aaa;
 			margin: 10px;
 			padding: 16px;
 			border-radius: 5px;
@@ -183,7 +189,11 @@ html, body{
 			.typed{
 				margin: 0;
 				display: inline;
-				&::before{ content: "入力文字数："; }
+				font-family: var(--sameWidthFont);
+				&::before{
+					content: "入力文字数：";
+					font-family: var(--defaultFont);
+				}
 			}
 			.time{
 				display: inline-block;
@@ -192,7 +202,7 @@ html, body{
 				right: 8px;
 				top: 0px;
 				font-size: inherit;
-				span{ font-size: inherit; }
+				span{ font-size: inherit; font-family: var(--sameWidthFont); }
 				div.timeRemainingBar_container{
 					display: inline-block;
 					width: 400px;
@@ -267,5 +277,66 @@ html, body{
 	}
 	&#end .center p{
 		font-size: 10vw;
+	}
+	&#score{
+		margin: auto;
+		width: fit-content;
+		display: block;
+		p{
+			text-align: center;
+			margin: 16px auto;
+		}
+		p#score{
+			width: 100%;
+			height: fit-content;
+			font-size: 5vw;
+			border-bottom: 2px solid #aaa;
+			font-family: var(--sameWidthFont);
+			&::before{ content: "Score: "; font-family: var(--defaultFont); }
+			&::after{ content: "点"; font-size: .75em; font-family: var(--defaultFont); }
+		}
+		.con{
+			display: none;
+			p{
+				font-size: 28px;
+				margin: 8px auto;
+			}
+			p#correct{
+				&::before{ content: "正タイプ数: "; }
+			}
+			p#incorrect{
+				&::before{ content: "誤タイプ数: "; }
+			}
+			p#total{
+				&::before{ content: "タイプ数合計: "; }
+			}
+			p#rate{
+				&::before{ content: "正タイプ率: "; }
+				&::after{ content: "%"; }
+			}
+			p#scoreT{
+				&::before{ content: "スコア: "; }
+				span{
+					font-size: 18px;
+				}
+			}
+			p.splitter{
+				height: 1px;
+				width: 100%;
+			}
+			button{
+				$bg: #1a73e8;
+				background: $bg;
+				padding: 12px;
+				font-size: 16px;
+				color: #fff;
+				border-radius: 5px;
+				border: 0;
+				width: 100%;
+				outline: 0;
+				&:hover{ background: darken($bg, 15%); }
+				&:disabled{ background: lighten($bg, 20%); }
+			}
+		}
 	}
 }
