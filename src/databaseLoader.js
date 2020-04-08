@@ -91,8 +91,6 @@ const progressbarSet = async p=>{
 	const $bar = $("div.container#loader #bar");
 	$("div.container#loader p#progressMsg").text(`${p} / ${loadFile.length}`);
 	$bar.animate({width: `${(p/loadFile.length)*100}%`}, 100);
-	const rad = $bar.width() - 400 + 18;
-	$bar.css({borderTopRightRadius: rad, borderBottomRightRadius: rad});
 	await sleep(100);
 }
 
