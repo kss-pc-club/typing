@@ -415,6 +415,14 @@ html, body {
   font-size: 18px;
 }
 
+.container#score .con p#pm::before {
+  content: "1分あたりの正タイプ数: ";
+}
+
+.container#score .con p#ps::before {
+  content: "1秒あたりの正タイプ数: ";
+}
+
 .container#score .con p.splitter {
   height: 1px;
   width: 100%;

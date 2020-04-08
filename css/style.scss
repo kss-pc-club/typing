@@ -320,6 +320,8 @@ html, body{
 					font-size: 18px;
 				}
 			}
+			p#pm{ &::before{ content: "1分あたりの正タイプ数: "; } }
+			p#ps{ &::before{ content: "1秒あたりの正タイプ数: "; } }
 			p.splitter{
 				height: 1px;
 				width: 100%;
