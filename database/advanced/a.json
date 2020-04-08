@@ -1,6 +1,6 @@
 [{
 	"en": "abstract",
-	"ja": "抽象的な・抽象の[adv]",
+	"ja": "抽象的な・抽象の[adj]",
 	"ph": "æbstrˈækt"
 }, {
 	"en": "accessibility",
@@ -8,7 +8,7 @@
 	"ph": "æksèsəbíləṭi"
 }, {
 	"en": "accessible",
-	"ja": "アクセス可能な・利用可能な[adv]",
+	"ja": "アクセス可能な・利用可能な[adj]",
 	"ph": "æksésəbl"
 }, {
 	"en": "activate",
@@ -16,11 +16,11 @@
 	"ph": "ˈæktəvèɪt"
 }, {
 	"en": "active",
-	"ja": "有効な[adv]",
+	"ja": "有効な[adj]",
 	"ph": "ˈæktɪv"
 }, {
 	"en": "additional",
-	"ja": "追加の[adv]",
+	"ja": "追加の[adj]",
 	"ph": "ədíʃ(ə)nəl"
 }, {
 	"en": "adjust",
@@ -48,7 +48,7 @@
 	"ph": "`ænətéɪʃən"
 }, {
 	"en": "anonymous",
-	"ja": "無名の・匿名の[adv]",
+	"ja": "無名の・匿名の[adj]",
 	"ph": "ənάnəməs"
 }, {
 	"en": "append",
@@ -56,7 +56,7 @@
 	"ph": "əpénd"
 }, {
 	"en": "applicable",
-	"ja": "該当する・適用可能な[adv]",
+	"ja": "該当する・適用可能な[adj]",
 	"ph": "ˈæplɪkəbl"
 }, {
 	"en": "archive",
@@ -100,7 +100,7 @@
 	"ph": "`ɔːṭəmˈæṭɪk"
 }, {
 	"en": "automatically",
-	"ja": "自動で・自動的に[adj]",
+	"ja": "自動で・自動的に[adv]",
 	"ph": "`ɔːṭəmˈæṭɪkəli"
 }, {
 	"en": "availability",
