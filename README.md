@@ -24,8 +24,3 @@ Database: [Globalization Design Institute](https://progeigo.org/learning/essenti
 
 This repo is under the MIT License.<br>
 See [LICENSE](https://github.com/a01sa01to/KSS-Typing/blob/master/LICENSE) File.
-
-## Support on Beerpay
-Hey dude! Help me out for a couple of :beers:!
-
-[![Beerpay](https://beerpay.io/a01sa01to/KSS-Typing/badge.svg?style=beer-square)](https://beerpay.io/a01sa01to/KSS-Typing)  [![Beerpay](https://beerpay.io/a01sa01to/KSS-Typing/make-wish.svg?style=flat-square)](https://beerpay.io/a01sa01to/KSS-Typing?focus=wish)
