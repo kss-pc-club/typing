@@ -13,6 +13,8 @@ const scoreShow = async data=>{
 	$('div.container#score p#total').text(totalType)
 	$('div.container#score p#rate').text(correctRate)
 	$('div.container#score p#scoreT').html(`${score}<br><span>正タイプ数(${correct}) × 正タイプ率(${correctRate}%) × 100</span>`)
+	$('div.container#score p#pm').text(correct/5)
+	$('div.container#score p#ps').text((Math.round(correct / 5 / 60*100)/100));
 	$('div.container#score button').click(()=>{
 		if(confirm("スコアを記録しましたか？\n記録しないと、レーティングの得点に加算されません。\n（練習として行っている場合はOKを押してください）")){
 			location.href = "https://github.com/KSS-PC-Club/";
