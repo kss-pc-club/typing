@@ -18,7 +18,8 @@ Anyone can use this, even if you are not KSS Student.
 
 ## Special Thanks
 
-Database: [Globalization Design Institute](https://progeigo.org/learning/essential-words-600-plus/)
+Database: [Globalization Design Institute](https://progeigo.org/learning/essential-words-600-plus/)<br>
+Contributor: [StasyCat](https://github.com/StasyCat)
 
 ## License
 
