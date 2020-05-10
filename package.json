@@ -11,8 +11,8 @@
   "author": "Asa",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.5.0",
-    "webpack": "^4.42.1"
+    "jquery": "^3.5.1",
+    "webpack": "^4.43.0"
   },
   "devDependencies": {
     "webpack-cli": "^3.3.11"
