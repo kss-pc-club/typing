@@ -94,17 +94,22 @@ const progressbarSet = async p=>{
 	await sleep(100);
 }
 
-const fileLoad = async ()=>{
+const fileLoad = async () => {
 	console.groupCollapsed("Database Load");
-	for(let i=0; i<loadFile.length; i++){
-		const e = loadFile[i];
-		await fetch(`./database/${e}.json`).then(r=>r.text()).then(t=>JSON.parse(t)).then(j=>{
-			for(let i=0; i<j.length; i++){
-				window.database.push(j[i]);
-			}
-		}).catch(r=>console.error(`File: ${e}.json\n`,r));
-		await progressbarSet(i+1);
-	}
+	let finished = 0;
+	window.database = await Promise.all(loadFile.map(e =>
+		fetch(`./database/${e}.json`)
+			.then(r => r.json())
+			.catch(r => {
+				console.error(`File: ${e}.json\n`,r);
+				return []; // 読み込めなかったファイルは空のデータベースとして扱う
+			})
+			.then(j => {
+				finished++;
+				progressbarSet(finished);
+				return j;
+			})
+		)).then(o => o.flat()).catch(r => (console.log("BUG", r), [])); // あり得ないだろうけど、もし上のでcatchされないエラーがあったときは空のデータベースとして扱う
 	console.groupEnd("Database Load");
 	fade(".container#loader", ".container#start")
 }
