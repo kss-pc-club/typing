@@ -1,7 +1,7 @@
 const $ = require("jquery");
-import {sleep, fade} from "./commonFunc";
-import {scoreShow} from "./score";
-import {code2char} from "./keyboard";
+import { sleep, fade } from "./commonFunc";
+import { scoreShow } from "./score";
+import { code2char } from "./keyboard";
 
 const time = 3000;  // 5min00.0s
 let secRemaining = time;
@@ -17,10 +17,10 @@ const colors = [{
 	// 残り時間が5%以下なら#f00
 	cond: 5,
 	color: "#f00"
-},{
+}, {
 	cond: 30,
 	color: "#ff0"
-},{
+}, {
 	cond: 100,
 	color: "#080"
 }]
@@ -30,19 +30,19 @@ const colors = [{
  * @param {Number} t secRemaining
  * @returns {String} ${min}分${sec}秒
  */
-const formatSec = t=>{
+const formatSec = t => {
 	const min = Math.floor(t / 600);
 	let sec = (t % 600) / 10;
-	sec = (sec < 10)?"0"+String(sec):String(sec);
-	sec += (Number(sec) % 1 ===0)?".0":"";
+	sec = (sec < 10) ? "0" + String(sec) : String(sec);
+	sec += (Number(sec) % 1 === 0) ? ".0" : "";
 	return `${min}分${sec}秒`;
 }
 
 
-const progressBarUpdate = ()=>{
+const progressBarUpdate = () => {
 	const percentage = secRemaining / time;
 
-	const color = colors.filter(e=>e.cond === colors.filter(e=>(e.cond >= percentage * 100)).map(c=>c.cond).min())[0].color;
+	const color = colors.filter(e => e.cond === colors.filter(e => (e.cond >= percentage * 100)).map(c => c.cond).min())[0].color;
 
 	$(".container#main .timeRemainingBar_container #bar").css({
 		width: `${percentage * 100}%`,
@@ -50,21 +50,21 @@ const progressBarUpdate = ()=>{
 	});
 }
 
-const mainGame = ()=>{
-	const fn = e=>{
+const mainGame = () => {
+	const fn = e => {
 		// 押すべきキー == 今押されたキー
-		if(nowChar.toLowerCase() === code2char(e.keyCode)){
+		if (nowChar.toLowerCase() === code2char(e.keyCode)) {
 			datas.correctType++;
 
 			typedChar += nowChar;
 			nowChar = remainingChar[0];
 
 			// 次押すキー != Null
-			if(nowChar){
+			if (nowChar) {
 				remainingChar = remainingChar.substring(1);
 			}
-			else{
-				if(window.database.length === 0){
+			else {
+				if (window.database.length === 0) {
 					alert("どうやらデータベースのすべてを打ち終わってしまったようです。");
 					return;
 				}
@@ -73,9 +73,9 @@ const mainGame = ()=>{
 				let nextWord = window.database[rand];
 
 				// カッコ内を取り除く
-				let tmp = nextWord.en.split("("); nextWord.en = tmp[0]; tmp = tmp[1]; nextWord.en += (tmp)?tmp.split(")")[1]:"";
+				let tmp = nextWord.en.split("("); nextWord.en = tmp[0]; tmp = tmp[1]; nextWord.en += (tmp) ? tmp.split(")")[1] : "";
 
-				window.database.splice(rand,1);
+				window.database.splice(rand, 1);
 
 				// 残りキー = 次の単語
 				remainingChar = nextWord.en.substring(1);
@@ -90,19 +90,19 @@ const mainGame = ()=>{
 			$(".container#main .eng span.typed_char").text(typedChar);
 			$(".container#main .eng span.next_char").text(nowChar);
 			$(".container#main .eng span.remaining_char").text(remainingChar);
-			$(".container#main .keyboard .key#"+nowChar.toLowerCase()).addClass("next");
+			$(".container#main .keyboard .key#" + nowChar.toLowerCase()).addClass("next");
 			$(".container#main .typed").text(datas.correctType);
 		}
-		else{
+		else {
 			datas.incorrectType++;
 		}
 	};
 
 	window.addEventListener("keydown", fn);
 
-	const timer = setInterval(async ()=>{
+	const timer = setInterval(async () => {
 		// 残り時間==0
-		if(secRemaining <= 0){
+		if (secRemaining <= 0) {
 			clearInterval(timer);
 			window.removeEventListener("keyup", fn);
 
@@ -123,15 +123,15 @@ const mainGame = ()=>{
 		$("div.container#main .time span#remTime").text(formatSec(secRemaining--));
 
 		progressBarUpdate();
-	},100);
+	}, 100);
 
 	// 最初
 	const rand = Math.round(Math.random() * window.database.length);
 	const e = window.database[rand]
-	window.database.splice(rand,1);
+	window.database.splice(rand, 1);
 	typedChar = "";
 	remainingChar = e.en;
-	let tmp = remainingChar.split("("); remainingChar = tmp[0]; tmp = tmp[1]; remainingChar += (tmp)?tmp.split(")")[1]:"";
+	let tmp = remainingChar.split("("); remainingChar = tmp[0]; tmp = tmp[1]; remainingChar += (tmp) ? tmp.split(")")[1] : "";
 
 	nowChar = remainingChar[0];
 	remainingChar = remainingChar.substring(1);
@@ -140,7 +140,7 @@ const mainGame = ()=>{
 	$(".container#main .eng span.typed_char").text("");
 	$(".container#main .eng span.next_char").text(nowChar);
 	$(".container#main .eng span.remaining_char").text(remainingChar);
-	$(".container#main .keyboard .key#"+nowChar.toLowerCase()).addClass("next");
+	$(".container#main .keyboard .key#" + nowChar.toLowerCase()).addClass("next");
 };
 
-export {mainGame};
+export { mainGame };

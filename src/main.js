@@ -1,12 +1,12 @@
-import {fileLoad, progressbarSet} from "./databaseLoader";
-import {keyboardGen} from "./keyboard";
-import {sleep} from "./commonFunc";
-import {mainGame} from "./game";
+import { fileLoad, progressbarSet } from "./databaseLoader";
+import { keyboardGen } from "./keyboard";
+import { sleep } from "./commonFunc";
+import { mainGame } from "./game";
 const $ = require("jquery");
 
-window.addEventListener("resize", e=>{
+window.addEventListener("resize", e => {
 	e.preventDefault();
-	if(window.innerWidth <= 900){
+	if (window.innerWidth <= 900) {
 		alert("ウィンドウの幅が900px以上の端末でプレイしてください。\n直前に表示されていたページに戻ります。");
 		history.back();
 		return;
@@ -14,8 +14,8 @@ window.addEventListener("resize", e=>{
 	return false;
 })
 
-document.addEventListener("DOMContentLoaded", ()=>{
-	if(window.innerWidth <= 900){
+document.addEventListener("DOMContentLoaded", () => {
+	if (window.innerWidth <= 900) {
 		alert("ウィンドウの幅が900px以上の端末でプレイしてください。\n直前に表示されていたページに戻ります。");
 		history.back();
 		return;
@@ -29,27 +29,27 @@ document.addEventListener("DOMContentLoaded", ()=>{
 	keyboardGen();
 
 	// Press Space to Start
-	const pressStart = async e=>{
+	const pressStart = async e => {
 
 		// Start が非アクティブならreturn
-		if(!$(".container#start").hasClass("showing")) return;
+		if (!$(".container#start").hasClass("showing")) return;
 
-		if(e.keyCode === 32){  // Space
+		if (e.keyCode === 32) {  // Space
 
 			// このEventListenerを削除
 			window.removeEventListener("keydown", pressStart);
 
 
 			// 設定を反映
-			if($("input#hideEn").prop("checked") === true){
+			if ($("input#hideEn").prop("checked") === true) {
 				console.log("hideEn");
 				$(".container#main div.eng .center span:not(.typed_char)").css("color", "#fff");
 			}
-			if($("input#hideJa").prop("checked") === true){
+			if ($("input#hideJa").prop("checked") === true) {
 				console.log("hideJa");
 				$(".container#main div.jap .center").css("color", "#fff");
 			}
-			if($("input#hidePh").prop("checked") === true){
+			if ($("input#hidePh").prop("checked") === true) {
 				console.log("hidePh");
 				$(".container#main div.pho .center").css("color", "#fff");
 			}

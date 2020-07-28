@@ -1,5 +1,5 @@
 const $ = require("jquery");
-import {sleep, fade} from "./commonFunc";
+import { sleep, fade } from "./commonFunc";
 
 // 読み込むファイル
 const loadFile = [
@@ -87,10 +87,10 @@ window.database = [];
  * @description Progress Barの読み込み具合変更
  * @param {Number} p 読み込みファイル数
  */
-const progressbarSet = async p=>{
+const progressbarSet = async p => {
 	const $bar = $("div.container#loader #bar");
 	$("div.container#loader p#progressMsg").text(`${p} / ${loadFile.length}`);
-	$bar.animate({width: `${(p/loadFile.length)*100}%`}, 100);
+	$bar.animate({ width: `${(p / loadFile.length) * 100}%` }, 100);
 	await sleep(100);
 }
 
@@ -118,4 +118,4 @@ const fileLoad = async () => {
 	fade(".container#loader", ".container#start")
 }
 
-export {fileLoad, progressbarSet}
+export { fileLoad, progressbarSet }

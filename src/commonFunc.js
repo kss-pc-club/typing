@@ -5,14 +5,14 @@ const $ = require("jquery");
  * @param {Number} t ミリ秒数
  * @returns {Promise}
  */
-const sleep = t => new Promise(r=>setTimeout(r,t));
+const sleep = t => new Promise(r => setTimeout(r, t));
 
 /**
  * @description フェードアニメーション
  * @param {String} b 消える要素セレクタ
  * @param {String} a 現れる要素セレクタ
  */
-const fade = async (b,a)=>{
+const fade = async (b, a) => {
 	$(b).fadeOut(500);
 	await sleep(500);
 	$(a).fadeIn(500).css("display", "grid");
@@ -21,12 +21,12 @@ const fade = async (b,a)=>{
 	$(a).addClass("showing").removeAttr("style");
 }
 
-Array.prototype.min = function(){
-	let m=1e5;
-	this.forEach(_=>{
-		m = (_<m) ? _ : m;
+Array.prototype.min = function () {
+	let m = 1e5;
+	this.forEach(_ => {
+		m = (_ < m) ? _ : m;
 	});
 	return m;
 }
 
-export {sleep, fade}
+export { sleep, fade }
