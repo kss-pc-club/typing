@@ -5,17 +5,17 @@ const scoreShow = async data => {
 	const correct = data.correctType;
 	const incorrect = data.incorrectType;
 	const totalType = correct + incorrect;
-	const correctRate = Math.round((correct / totalType) * 10000) / 100;
-	const score = Math.round(correct ** 2 / totalType * 100);
+	const correctRate = Math.round((correct / totalType) * 1000) / 10;
+	const score = Math.round(correct * correctRate);
 	console.log(`Correct Type: ${correct}\nIncorrect Type: ${incorrect}\nTotal: ${totalType}\nCorrect Rate: ${correctRate}\nScore: ${score}`);
 	$('div.container#score p#correct').text(correct)
 	$('div.container#score p#incorrect').text(incorrect)
 	$('div.container#score p#total').text(totalType)
 	$('div.container#score p#rate').text(correctRate)
-	$('div.container#score p#scoreT').html(`${score}<br><span>正タイプ数(${correct}) × 正タイプ率(${correctRate}%) × 100</span>`)
+	$('div.container#score p#scoreT').html(`${score}<br><span>正タイプ数(${correct}) × 正タイプ率(${correctRate}%) × 100 を四捨五入</span>`)
 	$('div.container#score p#pm').text(correct / 5)
-	$('div.container#score p#ps').text((Math.round(correct / 5 / 60 * 100) / 100));
-	$('div.container#score button').click(() => {
+	$('div.container#score p#ps').text((Math.round(correct / 300 * 100) / 100));
+	$('div.container#score button').on('click',() => {
 		if (confirm("スコアを記録しましたか？\n記録しないと、レーティングの得点に加算されません。\n（練習として行っている場合はOKを押してください）")) {
 			location.href = "https://github.com/KSS-PC-Club/";
 		}
