@@ -88,9 +88,9 @@ window.database = [];
  * @param {Number} p 読み込みファイル数
  */
 const progressbarSet = async p => {
-	const $bar = $("div.container#loader #bar");
+	const $bar = $("div.container#loader progress");
 	$("div.container#loader p#progressMsg").text(`${p} / ${loadFile.length}`);
-	$bar.animate({ width: `${(p / loadFile.length) * 100}%` }, 100);
+	$bar.attr('value',p);
 	await sleep(100);
 }
 

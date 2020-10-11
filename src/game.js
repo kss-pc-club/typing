@@ -13,18 +13,6 @@ let typedChar = "";
 let nowChar = "";
 let remainingChar = "";
 
-const colors = [{
-	// 残り時間が5%以下なら#f00
-	cond: 5,
-	color: "#f00"
-}, {
-	cond: 30,
-	color: "#ff0"
-}, {
-	cond: 100,
-	color: "#080"
-}]
-
 /**
  * @description 時間をフォーマットします。
  * @param {Number} t secRemaining
@@ -36,18 +24,6 @@ const formatSec = t => {
 	sec = (sec < 10) ? "0" + String(sec) : String(sec);
 	sec += (Number(sec) % 1 === 0) ? ".0" : "";
 	return `${min}分${sec}秒`;
-}
-
-
-const progressBarUpdate = () => {
-	const percentage = secRemaining / time;
-
-	const color = colors.filter(e => e.cond === colors.filter(e => (e.cond >= percentage * 100)).map(c => c.cond).min())[0].color;
-
-	$(".container#main .timeRemainingBar_container #bar").css({
-		width: `${percentage * 100}%`,
-		background: color
-	});
 }
 
 const mainGame = () => {
@@ -122,7 +98,7 @@ const mainGame = () => {
 		// 残り時間があるなら、時間表示
 		$("div.container#main .time span#remTime").text(formatSec(secRemaining--));
 
-		progressBarUpdate();
+		$(".container#main .timeRemainingBar_container progress").attr('value',secRemaining)
 	}, 100);
 
 	// 最初
