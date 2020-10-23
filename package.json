@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "jquery": "^3.5.1",
-    "webpack": "^4.44.0"
+    "webpack": "^5.2.0"
   },
   "devDependencies": {
     "webpack-cli": "^4.1.0"
