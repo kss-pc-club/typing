@@ -1,21 +1,27 @@
-[{
-  "en": "hardware",
-  "ja": "ハードウェア[n]",
-  "ph": "ˈhɑrˌdwɛr"
-},{
-  "en": "height",
-  "ja": "高さ[n]\n※発音注意〈ハイト〉",
-  "ph": "haɪt"
-},{
-  "en": "hide",
-  "ja": "隠す・非表示にする[v]",
-  "ph": "haɪd"
-},{
-  "en": "highlight",
-  "ja": "ハイライト[n]\n強調表示する[v]",
-  "ph":"ˈhaɪˌlaɪt"
-},{
-  "en": "host",
-  "ja": "ホスト・受け入れ側[n]",
-  "ph": "hoʊst"
-}]
+[
+  {
+    "en": "hardware",
+    "ja": "ハードウェア[n]",
+    "ph": "ˈhɑrˌdwɛr"
+  },
+  {
+    "en": "height",
+    "ja": "高さ[n]\n※発音注意〈ハイト〉",
+    "ph": "haɪt"
+  },
+  {
+    "en": "hide",
+    "ja": "隠す・非表示にする[v]",
+    "ph": "haɪd"
+  },
+  {
+    "en": "highlight",
+    "ja": "ハイライト[n]\n強調表示する[v]",
+    "ph": "ˈhaɪˌlaɪt"
+  },
+  {
+    "en": "host",
+    "ja": "ホスト・受け入れ側[n]",
+    "ph": "hoʊst"
+  }
+]

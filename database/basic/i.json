@@ -1,65 +1,82 @@
-[{
-  "en": "icon",
-  "ja": "アイコン[n]",
-  "ph": "ˈaɪkɑn"
-},{
-  "en": "ignore",
-  "ja": "無視する[v]",
-  "ph": "ɪgˈnɔr"
-},{
-  "en": "image",
-  "ja": "イメージ・画像[n]",
-  "ph": "ˈɪməʤ"
-},{
-  "en": "import",
-  "ja": "インポート[n]\nインポートする・持ち込む[v]",
-  "ph":"ˈɪmpɔrt [n]\nɪmˈpɔrt [v]"
-},{
-  "en": "include",
-  "ja": "含める[v]",
-  "ph": "ɪnˈklud"
-},{
-  "en": "index",
-  "ja": "インデックス・索引[n]",
-  "ph": "ˈɪndɛks"
-},{
-  "en": "indicate",
-  "ja": "示す[v]",
-  "ph": "ˈɪndəˌkeɪt"
-},{
-  "en": "input",
-  "ja": "入力[n]\n入力する[v]",
-  "ph":"ˈɪnˌpʊt"
-},{
-  "en": "install",
-  "ja": "インストールする[v]",
-  "ph": "ɪnˈstɔl"
-},{
-  "en": "installer",
-  "ja": "インストーラー（インストールするもの）[n]",
-  "ph":"ɪnˈstɔlər"
-},{
-  "en": "instance",
-  "ja": "インスタンス・実例[n]",
-  "ph": "ˈɪnstəns"
-},{
-  "en": "instruction",
-  "ja": "指示[n]",
-  "ph": "ɪnˈstrʌkʃən"
-},{
-  "en": "integer",
-  "ja": "整数[n]",
-  "ph": "ˈɪntəʤər"
-},{
-  "en": "interface",
-  "ja": "インターフェイス",
-  "ph": "ˈɪntərˌfeɪs"
-},{
-  "en": "issue",
-  "ja": "問題点[n]",
-  "ph": "ˈɪʃu"
-},{
-  "en": "item",
-  "ja": "項目・アイテム[n]",
-  "ph": "ˈaɪtəm"
-}]
+[
+  {
+    "en": "icon",
+    "ja": "アイコン[n]",
+    "ph": "ˈaɪkɑn"
+  },
+  {
+    "en": "ignore",
+    "ja": "無視する[v]",
+    "ph": "ɪgˈnɔr"
+  },
+  {
+    "en": "image",
+    "ja": "イメージ・画像[n]",
+    "ph": "ˈɪməʤ"
+  },
+  {
+    "en": "import",
+    "ja": "インポート[n]\nインポートする・持ち込む[v]",
+    "ph": "ˈɪmpɔrt [n]\nɪmˈpɔrt [v]"
+  },
+  {
+    "en": "include",
+    "ja": "含める[v]",
+    "ph": "ɪnˈklud"
+  },
+  {
+    "en": "index",
+    "ja": "インデックス・索引[n]",
+    "ph": "ˈɪndɛks"
+  },
+  {
+    "en": "indicate",
+    "ja": "示す[v]",
+    "ph": "ˈɪndəˌkeɪt"
+  },
+  {
+    "en": "input",
+    "ja": "入力[n]\n入力する[v]",
+    "ph": "ˈɪnˌpʊt"
+  },
+  {
+    "en": "install",
+    "ja": "インストールする[v]",
+    "ph": "ɪnˈstɔl"
+  },
+  {
+    "en": "installer",
+    "ja": "インストーラー（インストールするもの）[n]",
+    "ph": "ɪnˈstɔlər"
+  },
+  {
+    "en": "instance",
+    "ja": "インスタンス・実例[n]",
+    "ph": "ˈɪnstəns"
+  },
+  {
+    "en": "instruction",
+    "ja": "指示[n]",
+    "ph": "ɪnˈstrʌkʃən"
+  },
+  {
+    "en": "integer",
+    "ja": "整数[n]",
+    "ph": "ˈɪntəʤər"
+  },
+  {
+    "en": "interface",
+    "ja": "インターフェイス",
+    "ph": "ˈɪntərˌfeɪs"
+  },
+  {
+    "en": "issue",
+    "ja": "問題点[n]",
+    "ph": "ˈɪʃu"
+  },
+  {
+    "en": "item",
+    "ja": "項目・アイテム[n]",
+    "ph": "ˈaɪtəm"
+  }
+]

@@ -1,165 +1,207 @@
-[{
-	"en": "cache",
-	"ja": "キャッシュ[n]",
-	"ph": "kæʃ"
-}, {
-	"en": "cancel",
-	"ja": "キャンセルする、取り消す[v]",
-	"ph": "ˈkænsəl"
-},{
-	"en": "capacity",
-	"ja": "容量[n]",
-	"ph": "kəˈpæsəti"
-},{
-	"en": "case",
-	"ja": "場合、ケース[n]",
-	"ph": "keɪs"
-},{
-	"en": "character",
-	"ja": "文字[n]",
-	"ph": "ˈkɛrɪktər"
-},{
-	"en": "checkbox",
-	"ja": "チェックボックス[n]",
-	"ph": "ʧɛk bɑks"
-},{
-	"en": "choice",
-	"ja": "選択[n]",
-	"ph": "ʧɔɪs"
-},{
-	"en": "clear",
-	"ja": "澄み切った[adj]\n消去する[v]",
-	"ph": "klɪr"
-},{
-	"en": "click",
-	"ja": "クリック[n]\nクリックする[v]",
-	"ph": "klɪk"
-},{
-	"en": "client",
-	"ja": "クライアント、顧客[n]",
-	"ph": "ˈklaɪənt"
-},{
-	"en": "clipboard",
-	"ja": "クリップボード[n]\nコピペデータの一時保存場所",
-	"ph": "ˈklɪpˌbɔrd"
-},{
-	"en": "cloud",
-	"ja": "クラウド、雲[n]",
-	"ph": "klaʊd"
-},{
-	"en": "cluster",
-	"ja": "クラスター、集団[n]",
-	"ph": "ˈklʌstər"
-},{
-	"en": "code",
-	"ja": "コード[n]",
-	"ph": "koʊd"
-},{
-	"en": "collection",
-	"ja": "コレクション、収集物[n]",
-	"ph": "kəˈlɛkʃən"
-},{
-	"en": "column",
-	"ja": "カラム、列[n]\n表の横列のこと",
-	"ph": "ˈkɑləm"
-},{
-	"en": "command",
-	"ja": "コマンド、命令[n]",
-	"ph": "kəˈmænd"
-},{
-	"en": "commit",
-	"ja": "コミット[n]・約束する、委ねる[v]\nデータベース系において変更を保存する操作",
-	"ph": "kəˈmɪt"
-},{
-	"en": "communication",
-	"ja": "コミュニケーション、通信[n]",
-	"ph": "kəmˌjunəˈkeɪʃən"
-},{
-	"en": "component",
-	"ja": "コンポーネント、部品[n]",
-	"ph": "kəmˈpoʊnənt"
-},{
-	"en": "condition",
-	"ja": "状態、条件、状況[n]",
-	"ph": "kənˈdɪʃən"
-},{
-	"en": "configuration",
-	"ja": "構成[n]",
-	"ph": "kənˌfɪgjəˈreɪʃən"
-},{
-	"en": "connect",
-	"ja": "接続する[v]",
-	"ph": "kəˈnɛkt"
-},{
-	"en": "connection",
-	"ja": "接続[n]",
-	"ph": "kəˈnɛkʃən"
-},{
-	"en": "console",
-	"ja": "コンソール、制御盤[n]",
-	"ph": "ˈkɑnsoʊl"
-},{
-	"en": "constant",
-	"ja": "不変の、一定の[adj]\n定数[n]",
-	"ph": "ˈkɑnstənt"
-},{
-	"en": "constructor",
-	"ja": "コンストラクタ、建設[n]",
-	"ph": "kənˈstrʌktər"
-},{
-	"en": "contain",
-	"ja": "含む[v]",
-	"ph": "kənˈteɪn"
-},{
-	"en": "container",
-	"ja": "コンテナ、入れ物[n]",
-	"ph": "kənˈteɪnər"
-},{
-	"en": "content",
-	"ja": "コンテンツ、内容[n]",
-	"ph": "ˈkɑntɛnt"
-},{
-	"en": "context",
-	"ja": "コンテキスト、文脈[n]",
-	"ph": "ˈkɑntɛkst"
-},{
-	"en": "continue",
-	"ja": "続ける[v]",
-	"ph": "kənˈtɪnju"
-},{
-	"en": "control",
-	"ja": "制御、コントロール[n]\n制御する、操作する[v]",
-	"ph": "kənˈtroʊl"
-},{
-	"en": "cookie",
-	"ja": "クッキー[n]",
-	"ph": "ˈkʊki"
-},{
-	"en": "core",
-	"ja": "コア・核[n]\n最重要な・核の[adj]",
-	"ph": "kɔr"
-},{
-	"en": "correctly",
-	"ja": "正しく・正常に[adv]",
-	"ph": "kəˈrɛktli"
-},{
-	"en": "count",
-	"ja": "数える・カウントする[v]\n回数・数[n]",
-	"ph": "kaʊnt"
-},{
-	"en": "current",
-	"ja": "現在の[adj]",
-	"ph": "ˈkɜrənt"
-},{
-	"en": "cursor",
-	"ja": "カーソル",
-	"ph": "ˈkɜrsər"
-},{
-	"en": "custom",
-	"ja": "カスタムの・ユーザー設定の・特注の[adj]",
-	"ph": "ˈkʌstəm"
-},{
-	"en": "customize",
-	"ja": "カスタマイズする[v]",
-	"ph": "ˈkʌstəˌmaɪz"
-}]
+[
+	{
+		"en": "cache",
+		"ja": "キャッシュ[n]",
+		"ph": "kæʃ"
+	},
+	{
+		"en": "cancel",
+		"ja": "キャンセルする、取り消す[v]",
+		"ph": "ˈkænsəl"
+	},
+	{
+		"en": "capacity",
+		"ja": "容量[n]",
+		"ph": "kəˈpæsəti"
+	},
+	{
+		"en": "case",
+		"ja": "場合、ケース[n]",
+		"ph": "keɪs"
+	},
+	{
+		"en": "character",
+		"ja": "文字[n]",
+		"ph": "ˈkɛrɪktər"
+	},
+	{
+		"en": "checkbox",
+		"ja": "チェックボックス[n]",
+		"ph": "ʧɛk bɑks"
+	},
+	{
+		"en": "choice",
+		"ja": "選択[n]",
+		"ph": "ʧɔɪs"
+	},
+	{
+		"en": "clear",
+		"ja": "澄み切った[adj]\n消去する[v]",
+		"ph": "klɪr"
+	},
+	{
+		"en": "click",
+		"ja": "クリック[n]\nクリックする[v]",
+		"ph": "klɪk"
+	},
+	{
+		"en": "client",
+		"ja": "クライアント、顧客[n]",
+		"ph": "ˈklaɪənt"
+	},
+	{
+		"en": "clipboard",
+		"ja": "クリップボード[n]\nコピペデータの一時保存場所",
+		"ph": "ˈklɪpˌbɔrd"
+	},
+	{
+		"en": "cloud",
+		"ja": "クラウド、雲[n]",
+		"ph": "klaʊd"
+	},
+	{
+		"en": "cluster",
+		"ja": "クラスター、集団[n]",
+		"ph": "ˈklʌstər"
+	},
+	{
+		"en": "code",
+		"ja": "コード[n]",
+		"ph": "koʊd"
+	},
+	{
+		"en": "collection",
+		"ja": "コレクション、収集物[n]",
+		"ph": "kəˈlɛkʃən"
+	},
+	{
+		"en": "column",
+		"ja": "カラム、列[n]\n表の横列のこと",
+		"ph": "ˈkɑləm"
+	},
+	{
+		"en": "command",
+		"ja": "コマンド、命令[n]",
+		"ph": "kəˈmænd"
+	},
+	{
+		"en": "commit",
+		"ja": "コミット[n]・約束する、委ねる[v]\nデータベース系において変更を保存する操作",
+		"ph": "kəˈmɪt"
+	},
+	{
+		"en": "communication",
+		"ja": "コミュニケーション、通信[n]",
+		"ph": "kəmˌjunəˈkeɪʃən"
+	},
+	{
+		"en": "component",
+		"ja": "コンポーネント、部品[n]",
+		"ph": "kəmˈpoʊnənt"
+	},
+	{
+		"en": "condition",
+		"ja": "状態、条件、状況[n]",
+		"ph": "kənˈdɪʃən"
+	},
+	{
+		"en": "configuration",
+		"ja": "構成[n]",
+		"ph": "kənˌfɪgjəˈreɪʃən"
+	},
+	{
+		"en": "connect",
+		"ja": "接続する[v]",
+		"ph": "kəˈnɛkt"
+	},
+	{
+		"en": "connection",
+		"ja": "接続[n]",
+		"ph": "kəˈnɛkʃən"
+	},
+	{
+		"en": "console",
+		"ja": "コンソール、制御盤[n]",
+		"ph": "ˈkɑnsoʊl"
+	},
+	{
+		"en": "constant",
+		"ja": "不変の、一定の[adj]\n定数[n]",
+		"ph": "ˈkɑnstənt"
+	},
+	{
+		"en": "constructor",
+		"ja": "コンストラクタ、建設[n]",
+		"ph": "kənˈstrʌktər"
+	},
+	{
+		"en": "contain",
+		"ja": "含む[v]",
+		"ph": "kənˈteɪn"
+	},
+	{
+		"en": "container",
+		"ja": "コンテナ、入れ物[n]",
+		"ph": "kənˈteɪnər"
+	},
+	{
+		"en": "content",
+		"ja": "コンテンツ、内容[n]",
+		"ph": "ˈkɑntɛnt"
+	},
+	{
+		"en": "context",
+		"ja": "コンテキスト、文脈[n]",
+		"ph": "ˈkɑntɛkst"
+	},
+	{
+		"en": "continue",
+		"ja": "続ける[v]",
+		"ph": "kənˈtɪnju"
+	},
+	{
+		"en": "control",
+		"ja": "制御、コントロール[n]\n制御する、操作する[v]",
+		"ph": "kənˈtroʊl"
+	},
+	{
+		"en": "cookie",
+		"ja": "クッキー[n]",
+		"ph": "ˈkʊki"
+	},
+	{
+		"en": "core",
+		"ja": "コア・核[n]\n最重要な・核の[adj]",
+		"ph": "kɔr"
+	},
+	{
+		"en": "correctly",
+		"ja": "正しく・正常に[adv]",
+		"ph": "kəˈrɛktli"
+	},
+	{
+		"en": "count",
+		"ja": "数える・カウントする[v]\n回数・数[n]",
+		"ph": "kaʊnt"
+	},
+	{
+		"en": "current",
+		"ja": "現在の[adj]",
+		"ph": "ˈkɜrənt"
+	},
+	{
+		"en": "cursor",
+		"ja": "カーソル",
+		"ph": "ˈkɜrsər"
+	},
+	{
+		"en": "custom",
+		"ja": "カスタムの・ユーザー設定の・特注の[adj]",
+		"ph": "ˈkʌstəm"
+	},
+	{
+		"en": "customize",
+		"ja": "カスタマイズする[v]",
+		"ph": "ˈkʌstəˌmaɪz"
+	}
+]

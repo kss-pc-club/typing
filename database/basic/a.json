@@ -1,61 +1,77 @@
-[{
-	"en": "accept",
-	"ja": "受諾する・受け入れる[v]",
-	"ph": "ækˈsɛpt"
-}, {
-	"en": "access",
-	"ja": "アクセスする・利用する・入手する[v]\nアクセス[n]",
-	"ph": "ˈækˌsɛs"
-}, {
-	"en": "account",
-	"ja": "アカウント・口座[n]",
-	"ph": "əˈkaʊnt"
-}, {
-	"en": "algorithm",
-	"ja": "アルゴリズム[n]",
-	"ph": "ˈælgəˌrɪðəm"
-}, {
-	"en": "allow",
-	"ja": "可能にする・許可する[v]",
-	"ph": "əˈlaʊ"
-}, {
-	"en": "alternative",
-	"ja": "代替の[adj]",
-	"ph": "ɔlˈtɜrnətɪv"
-}, {
-	"en": "application",
-	"ja": "アプリケーション[n]",
-	"ph": "ˌæpləˈkeɪʃən"
-}, {
-	"en": "apply",
-	"ja": "適用する[v]",
-	"ph": "əˈplaɪ"
-}, {
-	"en": "argument",
-	"ja": "引数・実引数[n]",
-	"ph": "ˈɑrgjəmənt"
-}, {
-	"en": "array",
-	"ja": "配列[n]",
-	"ph": "əˈreɪ"
-}, {
-	"en": "attribute",
-	"ja": "属性[n]",
-	"ph": "ˈætrəˌbjut"
-}, {
-	"en": "audio",
-	"ja": "オーディオ・音声[n]",
-	"ph": "ˈɑdiˌoʊ"
-}, {
-	"en": "author",
-	"ja": "作成者[n]",
-	"ph": "ˈɔθər"
-}, {
-	"en": "available",
-	"ja": "利用可能な・入手可能な[adj]",
-	"ph": "əˈveɪləbəl"
-}, {
-	"en": "avoid",
-	"ja": "回避する[v]",
-	"ph": "əˈvɔɪd"
-}]
+[
+	{
+		"en": "accept",
+		"ja": "受諾する・受け入れる[v]",
+		"ph": "ækˈsɛpt"
+	},
+	{
+		"en": "access",
+		"ja": "アクセスする・利用する・入手する[v]\nアクセス[n]",
+		"ph": "ˈækˌsɛs"
+	},
+	{
+		"en": "account",
+		"ja": "アカウント・口座[n]",
+		"ph": "əˈkaʊnt"
+	},
+	{
+		"en": "algorithm",
+		"ja": "アルゴリズム[n]",
+		"ph": "ˈælgəˌrɪðəm"
+	},
+	{
+		"en": "allow",
+		"ja": "可能にする・許可する[v]",
+		"ph": "əˈlaʊ"
+	},
+	{
+		"en": "alternative",
+		"ja": "代替の[adj]",
+		"ph": "ɔlˈtɜrnətɪv"
+	},
+	{
+		"en": "application",
+		"ja": "アプリケーション[n]",
+		"ph": "ˌæpləˈkeɪʃən"
+	},
+	{
+		"en": "apply",
+		"ja": "適用する[v]",
+		"ph": "əˈplaɪ"
+	},
+	{
+		"en": "argument",
+		"ja": "引数・実引数[n]",
+		"ph": "ˈɑrgjəmənt"
+	},
+	{
+		"en": "array",
+		"ja": "配列[n]",
+		"ph": "əˈreɪ"
+	},
+	{
+		"en": "attribute",
+		"ja": "属性[n]",
+		"ph": "ˈætrəˌbjut"
+	},
+	{
+		"en": "audio",
+		"ja": "オーディオ・音声[n]",
+		"ph": "ˈɑdiˌoʊ"
+	},
+	{
+		"en": "author",
+		"ja": "作成者[n]",
+		"ph": "ˈɔθər"
+	},
+	{
+		"en": "available",
+		"ja": "利用可能な・入手可能な[adj]",
+		"ph": "əˈveɪləbəl"
+	},
+	{
+		"en": "avoid",
+		"ja": "回避する[v]",
+		"ph": "əˈvɔɪd"
+	}
+]

@@ -1,41 +1,52 @@
-[{
-	"en": "backup",
-	"ja": "バックアップ[n]",
-	"ph": "ˈbæˌkʌp"
-}, {
-	"en": "base",
-	"ja": "ベースの・基底の[adj]\n(based on)～に基づく[v]",
-	"ph": "beɪs"
-}, {
-	"en": "bit",
-	"ja": "ビット[n]\n情報量の最小単位",
-	"ph": "bɪt"
-}, {
-	"en": "blank",
-	"ja": "空白の[adj]",
-	"ph": "blæŋk"
-}, {
-	"en": "block",
-	"ja": "ブロック[n]\nブロックする[v]",
-	"ph": "blɑk"
-}, {
-	"en": "boolean",
-	"ja": "ブール値の。論理型の[adj]\nTrue or Falseのデータ型",
-	"ph": "buˈliən"
-}, {
-	"en": "branch",
-	"ja": "ブランチ・分岐・枝[n]",
-	"ph": "brænʧ"
-}, {
-	"en": "browser",
-	"ja": "ブラウザ[n]",
-	"ph": "ˈbraʊzər"
-}, {
-	"en": "bug",
-	"ja": "バグ・昆虫[n]",
-	"ph": "bʌg"
-}, {
-	"en": "byte",
-	"ja": "バイト[n]\n1Byte = 1bit",
-	"ph": "baɪt"
-}]
+[
+	{
+		"en": "backup",
+		"ja": "バックアップ[n]",
+		"ph": "ˈbæˌkʌp"
+	},
+	{
+		"en": "base",
+		"ja": "ベースの・基底の[adj]\n(based on)～に基づく[v]",
+		"ph": "beɪs"
+	},
+	{
+		"en": "bit",
+		"ja": "ビット[n]\n情報量の最小単位",
+		"ph": "bɪt"
+	},
+	{
+		"en": "blank",
+		"ja": "空白の[adj]",
+		"ph": "blæŋk"
+	},
+	{
+		"en": "block",
+		"ja": "ブロック[n]\nブロックする[v]",
+		"ph": "blɑk"
+	},
+	{
+		"en": "boolean",
+		"ja": "ブール値の。論理型の[adj]\nTrue or Falseのデータ型",
+		"ph": "buˈliən"
+	},
+	{
+		"en": "branch",
+		"ja": "ブランチ・分岐・枝[n]",
+		"ph": "brænʧ"
+	},
+	{
+		"en": "browser",
+		"ja": "ブラウザ[n]",
+		"ph": "ˈbraʊzər"
+	},
+	{
+		"en": "bug",
+		"ja": "バグ・昆虫[n]",
+		"ph": "bʌg"
+	},
+	{
+		"en": "byte",
+		"ja": "バイト[n]\n1Byte = 1bit",
+		"ph": "baɪt"
+	}
+]

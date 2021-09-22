@@ -1,53 +1,67 @@
-[{
-  "en": "fail",
-  "ja": "失敗する[v]",
-  "ph": "feɪl"
-}, {
-  "en": "feature",
-  "ja": "機能・特徴[n]",
-  "ph": "ˈfiʧər"
-}, {
-  "en": "field",
-  "ja": "フィールド・分野[n]",
-  "ph": "fild"
-}, {
-  "en": "file",
-  "ja": "ファイル[n]",
-  "ph": "faɪl"
-}, {
-  "en": "filter",
-  "ja": "フィルター[n]\n絞り込む[v]",
-  "ph": "ˈfɪltər"
-}, {
-  "en": "fix",
-  "ja": "修正する・固定する[v]",
-  "ph": "fɪks"
-}, {
-  "en": "flag",
-  "ja": "フラグ・旗[n]",
-  "ph": "flæg"
-}, {
-  "en": "folder",
-  "ja": "フォルダー[n]",
-  "ph": "ˈfoʊldər"
-}, {
-  "en": "following",
-  "ja": "次に述べる[adj]\n次の項目[n]",
-  "ph": "ˈfɑloʊɪŋ"
-}, {
-  "en": "font",
-  "ja": "フォント[n]",
-  "ph": "fɑnt"
-}, {
-  "en": "force",
-  "ja": "強制する[v]\n力[n]",
-  "ph": "fɔrs"
-}, {
-  "en": "format",
-  "ja": "フォーマット・書式[n]\n初期化する[v]",
-  "ph": "ˈfɔrˌmæt"
-}, {
-  "en": "function",
-  "ja": "機能・関数[n]",
-  "ph": "ˈfʌŋkʃən"
-}]
+[
+  {
+    "en": "fail",
+    "ja": "失敗する[v]",
+    "ph": "feɪl"
+  },
+  {
+    "en": "feature",
+    "ja": "機能・特徴[n]",
+    "ph": "ˈfiʧər"
+  },
+  {
+    "en": "field",
+    "ja": "フィールド・分野[n]",
+    "ph": "fild"
+  },
+  {
+    "en": "file",
+    "ja": "ファイル[n]",
+    "ph": "faɪl"
+  },
+  {
+    "en": "filter",
+    "ja": "フィルター[n]\n絞り込む[v]",
+    "ph": "ˈfɪltər"
+  },
+  {
+    "en": "fix",
+    "ja": "修正する・固定する[v]",
+    "ph": "fɪks"
+  },
+  {
+    "en": "flag",
+    "ja": "フラグ・旗[n]",
+    "ph": "flæg"
+  },
+  {
+    "en": "folder",
+    "ja": "フォルダー[n]",
+    "ph": "ˈfoʊldər"
+  },
+  {
+    "en": "following",
+    "ja": "次に述べる[adj]\n次の項目[n]",
+    "ph": "ˈfɑloʊɪŋ"
+  },
+  {
+    "en": "font",
+    "ja": "フォント[n]",
+    "ph": "fɑnt"
+  },
+  {
+    "en": "force",
+    "ja": "強制する[v]\n力[n]",
+    "ph": "fɔrs"
+  },
+  {
+    "en": "format",
+    "ja": "フォーマット・書式[n]\n初期化する[v]",
+    "ph": "ˈfɔrˌmæt"
+  },
+  {
+    "en": "function",
+    "ja": "機能・関数[n]",
+    "ph": "ˈfʌŋkʃən"
+  }
+]

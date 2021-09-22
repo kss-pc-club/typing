@@ -1,125 +1,157 @@
-[{
-	"en": "API",
-	"ja": "プラットフォーム側の機能を外部から利用できるように提供する仕組み。",
-	"ph": "Application Programming Interface"
-}, {
-	"en": "CI",
-	"ja": "ビルドやテストを継続的に行い、開発の効率化や省力化などを図ること。",
-	"ph": "Continuous Integration"
-}, {
-	"en": "CLI",
-	"ja": "「CUI」とほぼ同じ。「GUI」の逆。コマンドプロンプトとかそのあたり。",
-	"ph": "Command Line Interface"
-}, {
-	"en": "CPU",
-	"ja": "コンピュータの頭脳。",
-	"ph": "Central Processing Unit"
-}, {
-	"en": "CSS",
-	"ja": "HTMLの装飾を行う言語。",
-	"ph": "Cascading Style Sheet"
-}, {
-	"en": "DNS",
-	"ja": "ドメインとIPアドレスを紐づける、仲介役。",
-	"ph": "Domain Name System"
-}, {
-	"en": "DOM",
-	"ja": "HTMLやXMLにおけるAPIの1つ。",
-	"ph": "Document Object Model"
-}, {
-	"en": "HTML",
-	"ja": "Webページで最も使用される言語。",
-	"ph": "HyperText Markup Language"
-}, {
-	"en": "HTTP",
-	"ja": "Webページのアドレスの最初につくプロトコル。",
-	"ph": "HyperText Transfer Protocol"
-}, {
-	"en": "HTTPS",
-	"ja": "HTTPのセキュリティ強化版。",
-	"ph": "HyperText Transfer Protocol Secure"
-}, {
-	"en": "IDE",
-	"ja": "統合開発環境。VSCodeとかAtomとか。",
-	"ph": "Integrated Development Environment"
-}, {
-	"en": "IE",
-	"ja": "前者では「i.e.」の形で表すので、大文字の場合は基本的に後者。\n開発社(Microsoft)も利用を推奨していないブラウザ。",
-	"ph": "Id Est(ラテン語で「つまり、」)\nInternet Explorer"
-}, {
-	"en": "IO",
-	"ja": "「入出力」のこと。",
-	"ph": "Input/Output"
-}, {
-	"en": "IP",
-	"ja": "インターネットに接続するためのプロトコル。",
-	"ph": "Internet Protocol"
-}, {
-	"en": "JSON",
-	"ja": "JavaScriptを拡張したデータフォーマット。",
-	"ph": "JavaScript Object Notation"
-}, {
-	"en": "NFC",
-	"ja": "近距離無線通信。SuicaやApplePayなどのFeliCaもその一部。",
-	"ph": "Near Field Communication"
-}, {
-	"en": "OS",
-	"ja": "基本ソフトウェア。WindowsとかmacOSとか。",
-	"ph": "Operating System"
-}, {
-	"en": "RE",
-	"ja": "正規表現。RegExとも表記する。",
-	"ph": "Regular Expression"
-}, {
-	"en": "RGB",
-	"ja": "赤緑青。光の三原色。",
-	"ph": "Red Green Blue"
-}, {
-	"en": "SDK",
-	"ja": "ソフトウェア開発のためのパッケージ。",
-	"ph": "Software Development Kit"
-}, {
-	"en": "SQL",
-	"ja": "「構造化されたクエリ言語」。主にデータベースで使用される。",
-	"ph": "Structured Query Language"
-}, {
-	"en": "SSH",
-	"ja": "ネットワーク経由で別のコンピュータにログインして操作するソフトウェア。",
-	"ph": "Secure Shell"
-}, {
-	"en": "SSL",
-	"ja": "HTTPSで使われる暗号化規格。TLSのことを指すこともある。",
-	"ph": "Secure Sockets Layer"
-}, {
-	"en": "TLS",
-	"ja": "SSLの後継暗号化規格。SSL3.0以降の名称。現在はこれが使われる。",
-	"ph": "Transport Layer Security"
-}, {
-	"en": "UI",
-	"ja": "機器とユーザーの間の接触面。「デザイン」「操作性」など。",
-	"ph": "User Interface"
-}, {
-	"en": "URI",
-	"ja": "名前・場所を識別する書き方のルール。意味的に、URLを包含している。",
-	"ph": "Uniform Resource Identifier"
-}, {
-	"en": "URL",
-	"ja": "ページや画像などを取得するための主要な場所とアクセス方法を指定するルール。",
-	"ph": "Uniform Resource Locator"
-}, {
-	"en": "VM",
-	"ja": "仮想マシン。VMWareやVirtualBoxなどが有名。",
-	"ph": "Virtual Machine"
-}, {
-	"en": "WIP",
-	"ja": "作業中。まだ作っているレポジトリによく書く。",
-	"ph": "Work In Progress"
-}, {
-	"en": "WWW",
-	"ja": "ドメインにつく「www」はこれ。草は生えてない。",
-	"ph": "World Wide Web"
-}, {
-	"en": "XML",
-	"ja": "HTMLと同じ「マークアップ言語」の1つ。",
-	"ph": "eXtensible Markup Language"
-}]
+[
+	{
+		"en": "API",
+		"ja": "プラットフォーム側の機能を外部から利用できるように提供する仕組み。",
+		"ph": "Application Programming Interface"
+	},
+	{
+		"en": "CI",
+		"ja": "ビルドやテストを継続的に行い、開発の効率化や省力化などを図ること。",
+		"ph": "Continuous Integration"
+	},
+	{
+		"en": "CLI",
+		"ja": "「CUI」とほぼ同じ。「GUI」の逆。コマンドプロンプトとかそのあたり。",
+		"ph": "Command Line Interface"
+	},
+	{
+		"en": "CPU",
+		"ja": "コンピュータの頭脳。",
+		"ph": "Central Processing Unit"
+	},
+	{
+		"en": "CSS",
+		"ja": "HTMLの装飾を行う言語。",
+		"ph": "Cascading Style Sheet"
+	},
+	{
+		"en": "DNS",
+		"ja": "ドメインとIPアドレスを紐づける、仲介役。",
+		"ph": "Domain Name System"
+	},
+	{
+		"en": "DOM",
+		"ja": "HTMLやXMLにおけるAPIの1つ。",
+		"ph": "Document Object Model"
+	},
+	{
+		"en": "HTML",
+		"ja": "Webページで最も使用される言語。",
+		"ph": "HyperText Markup Language"
+	},
+	{
+		"en": "HTTP",
+		"ja": "Webページのアドレスの最初につくプロトコル。",
+		"ph": "HyperText Transfer Protocol"
+	},
+	{
+		"en": "HTTPS",
+		"ja": "HTTPのセキュリティ強化版。",
+		"ph": "HyperText Transfer Protocol Secure"
+	},
+	{
+		"en": "IDE",
+		"ja": "統合開発環境。VSCodeとかAtomとか。",
+		"ph": "Integrated Development Environment"
+	},
+	{
+		"en": "IE",
+		"ja": "前者では「i.e.」の形で表すので、大文字の場合は基本的に後者。\n開発社(Microsoft)も利用を推奨していないブラウザ。",
+		"ph": "Id Est(ラテン語で「つまり、」)\nInternet Explorer"
+	},
+	{
+		"en": "IO",
+		"ja": "「入出力」のこと。",
+		"ph": "Input/Output"
+	},
+	{
+		"en": "IP",
+		"ja": "インターネットに接続するためのプロトコル。",
+		"ph": "Internet Protocol"
+	},
+	{
+		"en": "JSON",
+		"ja": "JavaScriptを拡張したデータフォーマット。",
+		"ph": "JavaScript Object Notation"
+	},
+	{
+		"en": "NFC",
+		"ja": "近距離無線通信。SuicaやApplePayなどのFeliCaもその一部。",
+		"ph": "Near Field Communication"
+	},
+	{
+		"en": "OS",
+		"ja": "基本ソフトウェア。WindowsとかmacOSとか。",
+		"ph": "Operating System"
+	},
+	{
+		"en": "RE",
+		"ja": "正規表現。RegExとも表記する。",
+		"ph": "Regular Expression"
+	},
+	{
+		"en": "RGB",
+		"ja": "赤緑青。光の三原色。",
+		"ph": "Red Green Blue"
+	},
+	{
+		"en": "SDK",
+		"ja": "ソフトウェア開発のためのパッケージ。",
+		"ph": "Software Development Kit"
+	},
+	{
+		"en": "SQL",
+		"ja": "「構造化されたクエリ言語」。主にデータベースで使用される。",
+		"ph": "Structured Query Language"
+	},
+	{
+		"en": "SSH",
+		"ja": "ネットワーク経由で別のコンピュータにログインして操作するソフトウェア。",
+		"ph": "Secure Shell"
+	},
+	{
+		"en": "SSL",
+		"ja": "HTTPSで使われる暗号化規格。TLSのことを指すこともある。",
+		"ph": "Secure Sockets Layer"
+	},
+	{
+		"en": "TLS",
+		"ja": "SSLの後継暗号化規格。SSL3.0以降の名称。現在はこれが使われる。",
+		"ph": "Transport Layer Security"
+	},
+	{
+		"en": "UI",
+		"ja": "機器とユーザーの間の接触面。「デザイン」「操作性」など。",
+		"ph": "User Interface"
+	},
+	{
+		"en": "URI",
+		"ja": "名前・場所を識別する書き方のルール。意味的に、URLを包含している。",
+		"ph": "Uniform Resource Identifier"
+	},
+	{
+		"en": "URL",
+		"ja": "ページや画像などを取得するための主要な場所とアクセス方法を指定するルール。",
+		"ph": "Uniform Resource Locator"
+	},
+	{
+		"en": "VM",
+		"ja": "仮想マシン。VMWareやVirtualBoxなどが有名。",
+		"ph": "Virtual Machine"
+	},
+	{
+		"en": "WIP",
+		"ja": "作業中。まだ作っているレポジトリによく書く。",
+		"ph": "Work In Progress"
+	},
+	{
+		"en": "WWW",
+		"ja": "ドメインにつく「www」はこれ。草は生えてない。",
+		"ph": "World Wide Web"
+	},
+	{
+		"en": "XML",
+		"ja": "HTMLと同じ「マークアップ言語」の1つ。",
+		"ph": "eXtensible Markup Language"
+	}
+]

@@ -1,93 +1,117 @@
-[{
-	"en": "damage",
-	"ja": "損害を与える[v]\n損害・ダメージ[n]",
-	"ph": "ˈdæməʤ"
-}, {
-	"en": "dashboard",
-	"ja": "ダッシュボード[n]\n複数の情報をひとまとめにして表示するツール。",
-	"ph": "ˈdæʃˌbɔrd"
-}, {
-	"en": "data",
-	"ja": "データ[n]",
-	"ph": "ˈdeɪtə"
-}, {
-	"en": "database",
-	"ja": "データベース[n]\nデータを集めて整理した情報のかたまり",
-	"ph": "ˈdeɪtəˌbeɪs"
-}, {
-	"en": "debug",
-	"ja": "デバッグする[v]\nデバッグ[n]\nバグを見つけて修正すること",
-	"ph": "diˈbʌg"
-}, {
-	"en": "default",
-	"ja": "既定値・デフォルト値[n]\nデフォルトで～になる[v]",
-	"ph": "dɪˈfɔlt"
-}, {
-	"en": "define",
-	"ja": "定義する[v]",
-	"ph": "dɪˈfaɪn"
-}, {
-	"en": "delete",
-	"ja": "削除する[v]",
-	"ph": "dɪˈlit"
-}, {
-	"en": "destroy",
-	"ja": "破壊する・破棄する[v]",
-	"ph": "dɪˈstrɔɪ"
-}, {
-	"en": "determine",
-	"ja": "判別する・決定する[v]",
-	"ph": "dəˈtɜrmən"
-}, {
-	"en": "develop",
-	"ja": "開発する[v]",
-	"ph": "dɪˈvɛləp"
-}, {
-	"en": "developer",
-	"ja": "開発者[n]",
-	"ph": "dɪˈvɛləpər"
-}, {
-	"en": "development",
-	"ja": "開発・開発すること[n]",
-	"ph": "dɪˈvɛləpmənt"
-}, {
-	"en": "device",
-	"ja": "デバイス・機器",
-	"ph": "dɪˈvaɪs"
-}, {
-	"en": "dialog",
-	"ja": "ダイアログ[n]\nダイアログボックスの略称。語源は「dialogue(対話)」",
-	"ph": "ˈdaɪəlɔg"
-}, {
-	"en": "directory",
-	"ja": "ディレクトリ[n]\nフォルダのこと。ファイルをグループ化するための特殊なファイル",
-	"ph": "dəˈrɛktəri"
-}, {
-	"en": "disk",
-	"ja": "ディスク・記憶媒体[n]",
-	"ph": "dɪsk"
-}, {
-	"en": "document",
-	"ja": "ドキュメント・文書[n]\n(文書で)記録する[v]",
-	"ph": "ˈdɑkjəmɛnt"
-}, {
-	"en": "documentation",
-	"ja": "ドキュメント・資料[n]",
-	"ph": "ˌdɑkjəmɛnˈteɪʃən"
-}, {
-	"en": "domain",
-	"ja": "ドメイン[n]\nDNSサーバーによってIPアドレスと紐づけられる",
-	"ph": "doʊˈmeɪn"
-}, {
-	"en": "download",
-	"ja": "ダウンロードする[v]",
-	"ph": "ˈdaʊnˌloʊd"
-}, {
-	"en": "driver",
-	"ja": "ドライバー[n]\nハードウェアをOSによって制御可能にするためのソフトウェア",
-	"ph": "ˈdraɪvər"
-}, {
-	"en": "dropdown",
-	"ja": "ドロップダウンの[adj]\nユーザーが一覧から1つの値を選択するUI要素",
-	"ph": "drɑpdaʊn"
-}]
+[
+	{
+		"en": "damage",
+		"ja": "損害を与える[v]\n損害・ダメージ[n]",
+		"ph": "ˈdæməʤ"
+	},
+	{
+		"en": "dashboard",
+		"ja": "ダッシュボード[n]\n複数の情報をひとまとめにして表示するツール。",
+		"ph": "ˈdæʃˌbɔrd"
+	},
+	{
+		"en": "data",
+		"ja": "データ[n]",
+		"ph": "ˈdeɪtə"
+	},
+	{
+		"en": "database",
+		"ja": "データベース[n]\nデータを集めて整理した情報のかたまり",
+		"ph": "ˈdeɪtəˌbeɪs"
+	},
+	{
+		"en": "debug",
+		"ja": "デバッグする[v]\nデバッグ[n]\nバグを見つけて修正すること",
+		"ph": "diˈbʌg"
+	},
+	{
+		"en": "default",
+		"ja": "既定値・デフォルト値[n]\nデフォルトで～になる[v]",
+		"ph": "dɪˈfɔlt"
+	},
+	{
+		"en": "define",
+		"ja": "定義する[v]",
+		"ph": "dɪˈfaɪn"
+	},
+	{
+		"en": "delete",
+		"ja": "削除する[v]",
+		"ph": "dɪˈlit"
+	},
+	{
+		"en": "destroy",
+		"ja": "破壊する・破棄する[v]",
+		"ph": "dɪˈstrɔɪ"
+	},
+	{
+		"en": "determine",
+		"ja": "判別する・決定する[v]",
+		"ph": "dəˈtɜrmən"
+	},
+	{
+		"en": "develop",
+		"ja": "開発する[v]",
+		"ph": "dɪˈvɛləp"
+	},
+	{
+		"en": "developer",
+		"ja": "開発者[n]",
+		"ph": "dɪˈvɛləpər"
+	},
+	{
+		"en": "development",
+		"ja": "開発・開発すること[n]",
+		"ph": "dɪˈvɛləpmənt"
+	},
+	{
+		"en": "device",
+		"ja": "デバイス・機器",
+		"ph": "dɪˈvaɪs"
+	},
+	{
+		"en": "dialog",
+		"ja": "ダイアログ[n]\nダイアログボックスの略称。語源は「dialogue(対話)」",
+		"ph": "ˈdaɪəlɔg"
+	},
+	{
+		"en": "directory",
+		"ja": "ディレクトリ[n]\nフォルダのこと。ファイルをグループ化するための特殊なファイル",
+		"ph": "dəˈrɛktəri"
+	},
+	{
+		"en": "disk",
+		"ja": "ディスク・記憶媒体[n]",
+		"ph": "dɪsk"
+	},
+	{
+		"en": "document",
+		"ja": "ドキュメント・文書[n]\n(文書で)記録する[v]",
+		"ph": "ˈdɑkjəmɛnt"
+	},
+	{
+		"en": "documentation",
+		"ja": "ドキュメント・資料[n]",
+		"ph": "ˌdɑkjəmɛnˈteɪʃən"
+	},
+	{
+		"en": "domain",
+		"ja": "ドメイン[n]\nDNSサーバーによってIPアドレスと紐づけられる",
+		"ph": "doʊˈmeɪn"
+	},
+	{
+		"en": "download",
+		"ja": "ダウンロードする[v]",
+		"ph": "ˈdaʊnˌloʊd"
+	},
+	{
+		"en": "driver",
+		"ja": "ドライバー[n]\nハードウェアをOSによって制御可能にするためのソフトウェア",
+		"ph": "ˈdraɪvər"
+	},
+	{
+		"en": "dropdown",
+		"ja": "ドロップダウンの[adj]\nユーザーが一覧から1つの値を選択するUI要素",
+		"ph": "drɑpdaʊn"
+	}
+]
