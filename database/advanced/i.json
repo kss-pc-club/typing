@@ -1,0 +1,107 @@
+[
+  {
+    "en": "identifier",
+    "ja": "識別子[n]",
+    "ph": "aɪˈdɛntəˌfaɪər"
+  },
+  {
+    "en": "implement",
+    "ja": "実装する[v]",
+    "ph": "ˈɪmpləmənt"
+  },
+  {
+    "en": "implementation",
+    "ja": "実装[n]",
+    "ph": "ˌɪmpləmɛnˈteɪʃən"
+  },
+  {
+    "en": "incompatible",
+    "ja": "互換性がない[adj]",
+    "ph": "ɪnkəmˈpætəbəl"
+  },
+  {
+    "en": "increment",
+    "ja": "増加・インクリメント[n]\n増加させる[v]",
+    "ph": "ˈɪnkrəmənt"
+  },
+  {
+    "en": "indentation",
+    "ja": "インデント[n]",
+    "ph": "ɪnˌdɛnˈteɪʃən"
+  },
+  {
+    "en": "initial",
+    "ja": "初期の・最初の[adj]",
+    "ph": "ɪˈnɪʃəl"
+  },
+  {
+    "en": "initialization",
+    "ja": "初期化[n]",
+    "ph": "ɪˈnɪʃəˌlizéiʃən"
+  },
+  {
+    "en": "initialize",
+    "ja": "初期化する[v]",
+    "ph": "ɪˈnɪʃəˌlaɪz"
+  },
+  {
+    "en": "inline",
+    "ja": "インラインの・列をなして[adj]\nインライン化する[v]",
+    "ph": "ɪnlaɪn"
+  },
+  {
+    "en": "inner",
+    "ja": "内部の・内側の[adj]",
+    "ph": "ˈɪnər"
+  },
+  {
+    "en": "insert",
+    "ja": "挿入する[v]",
+    "ph": "ɪnˈsɜrt"
+  },
+  {
+    "en": "inspect",
+    "ja": "詳しく調べる・検査する[v]",
+    "ph": "ɪnˈspɛkt"
+  },
+  {
+    "en": "inspection",
+    "ja": "検査[n]",
+    "ph": "ɪnˈspɛkʃən"
+  },
+  {
+    "en": "installation",
+    "ja": "インストール[n]",
+    "ph": "ˌɪnstəˈleɪʃən"
+  },
+  {
+    "en": "interact",
+    "ja": "対話する[v]",
+    "ph": "ˌɪntəˈrækt"
+  },
+  {
+    "en": "internal",
+    "ja": "内部の[adj]",
+    "ph": "ɪnˈtɜrnəl"
+  },
+  {
+    "en": "interval",
+    "ja": "間隔・休憩時間[n]",
+    "ph": "ˈɪntərvəl"
+  },
+  {
+    "en": "invalid",
+    "ja": "無効な[adj]",
+    "ph": "ˈɪnvəlɪd"
+  },
+  {
+    "en": "invoke",
+    "ja": "呼び出す・祈願する[v]",
+    "ph": "ɪnˈvoʊk"
+  },
+  {
+    "en": "iterate",
+    "ja": "反復する・繰り返す[v]",
+    "ph": "ˈɪtəreɪt"
+  }
+]
