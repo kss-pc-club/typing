@@ -1,0 +1,122 @@
+[
+  {
+    "en": "debugger",
+    "ja": "デバッガー[n]\nバグ修正を支援するプログラム",
+    "ph": "diˈbʌgər"
+  },
+  {
+    "en": "decimal",
+    "ja": "小数の・10進法の[adj]",
+    "ph": "ˈdɛsəməl"
+  },
+  {
+    "en": "declaration",
+    "ja": "宣言[n]",
+    "ph": "ˌdɛkləˈreɪʃən"
+  },
+  {
+    "en": "declare",
+    "ja": "宣言する[v]",
+    "ph": "dɪˈklɛr"
+  },
+  {
+    "en": "decode",
+    "ja": "デコードする・平文に直す[v]",
+    "ph": "dɪˈkoʊd"
+  },
+  {
+    "en": "dedicated",
+    "ja": "専用の・献身的な[adj]",
+    "ph": "ˈdɛdəkeɪtəd"
+  },
+  {
+    "en": "delay",
+    "ja": "遅延[n]\n遅らせる[v]",
+    "ph": "dɪˈleɪ"
+  },
+  {
+    "en": "dependency",
+    "ja": "依存関係[n]",
+    "ph": "dɪˈpɛndənsi"
+  },
+  {
+    "en": "deploy",
+    "ja": "配備する・デプロイする[v]",
+    "ph": "dɪˈplɔɪ"
+  },
+  {
+    "en": "deployment",
+    "ja": "配備・デプロイ[n]",
+    "ph": "dɪˈplɔɪmənt"
+  },
+  {
+    "en": "deprecated",
+    "ja": "非推奨の[adj]",
+    "ph": "ˈdɛprəˌkeɪtəd"
+  },
+  {
+    "en": "deprecation",
+    "ja": "非推奨[n]",
+    "ph": "dèprəkéɪʃən"
+  },
+  {
+    "en": "descriptor",
+    "ja": "記述子[n]",
+    "ph": "dɪˈskrɪˌptɝ"
+  },
+  {
+    "en": "destination",
+    "ja": "目的地・宛先[n]",
+    "ph": "ˌdɛstəˈneɪʃən"
+  },
+  {
+    "en": "detect",
+    "ja": "検出する[v]",
+    "ph": "dɪˈtɛkt"
+  },
+  {
+    "en": "digit",
+    "ja": "数字・桁[n]",
+    "ph": "ˈdɪʤət"
+  },
+  {
+    "en": "disable",
+    "ja": "無効にする[v]",
+    "ph": "dɪˈseɪbəl"
+  },
+  {
+    "en": "display",
+    "ja": "表示する[v]\n表示・画面・ディスプレイ[n]",
+    "ph": "dɪˈspleɪ"
+  },
+  {
+    "en": "distribute",
+    "ja": "分配する・配布する[v]",
+    "ph": "dɪˈstrɪbjut"
+  },
+  {
+    "en": "dump",
+    "ja": "ダンプする・どさりと下ろす[v]",
+    "ph": "dʌmp"
+  },
+  {
+    "en": "duplicate",
+    "ja": "重複している[adj]\n複製する[v]",
+    "ph": "ˈdupləkət"
+  },
+  {
+    "en": "duration",
+    "ja": "期間[n]",
+    "ph": "ˈdʊˈreɪʃən"
+  },
+  {
+    "en": "dynamic",
+    "ja": "動的な・機能的な[adj]",
+    "ph": "daɪˈnæmɪk"
+  },
+  {
+    "en": "dynamically",
+    "ja": "動的に・ダイナミックに[adv]",
+    "ph": "daɪˈnæmɪk(ə)li"
+  }
+]
