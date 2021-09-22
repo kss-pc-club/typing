@@ -1,0 +1,132 @@
+[
+  {
+    "en": "range",
+    "ja": "範囲[n]",
+    "ph": "reɪnʤ"
+  },
+  {
+    "en": "real-time",
+    "ja": "リアルタイムの[adj]",
+    "ph": "riəl-taɪm"
+  },
+  {
+    "en": "receive",
+    "ja": "受信する・受け取る[v]",
+    "ph": "rəˈsiv"
+  },
+  {
+    "en": "recommend",
+    "ja": "おすすめする・推奨する[v]",
+    "ph": "ˌrɛkəˈmɛnd"
+  },
+  {
+    "en": "record",
+    "ja": "記録する[v]\n記録・レコード[n]",
+    "ph": "ˈrɛkərd"
+  },
+  {
+    "en": "refactor",
+    "ja": "リファクター(挙動を変えずにプログラムの内部構造を整理)する[v]",
+    "ph": "ˌriˈfæktər"
+  },
+  {
+    "en": "refer",
+    "ja": "参照する[v]",
+    "ph": "rəˈfɜr"
+  },
+  {
+    "en": "reference",
+    "ja": "参照・リファレンス[n]\n参照する[v]",
+    "ph": "ˈrɛfərəns"
+  },
+  {
+    "en": "release",
+    "ja": "リリースする・公開する[v]",
+    "ph": "riˈlis"
+  },
+  {
+    "en": "remove",
+    "ja": "削除する[v]",
+    "ph": "riˈmuv"
+  },
+  {
+    "en": "rename",
+    "ja": "名前を変更する[v]",
+    "ph": "riˈneɪm"
+  },
+  {
+    "en": "replace",
+    "ja": "置き換えする[v]",
+    "ph": "ˌriˈpleɪs"
+  },
+  {
+    "en": "report",
+    "ja": "報告する[v]\nレポート・報告書[n]",
+    "ph": "rɪˈpɔrt"
+  },
+  {
+    "en": "request",
+    "ja": "要求・リクエスト[n]\n要求する",
+    "ph": "rɪˈkwɛst"
+  },
+  {
+    "en": "require",
+    "ja": "必要とする[v]",
+    "ph": "ˌriˈkwaɪər"
+  },
+  {
+    "en": "reset",
+    "ja": "リセットする[v]",
+    "ph": "riˈsɛt"
+  },
+  {
+    "en": "resource",
+    "ja": "リソース・資源[n]",
+    "ph": "ˈrisɔrs"
+  },
+  {
+    "en": "respond",
+    "ja": "応答する・返信する[v]",
+    "ph": "rɪˈspɑnd"
+  },
+  {
+    "en": "response",
+    "ja": "応答[n]",
+    "ph": "rɪˈspɑns"
+  },
+  {
+    "en": "restart",
+    "ja": "再起動する[v]",
+    "ph": "riˈstɑrt"
+  },
+  {
+    "en": "result",
+    "ja": "結果[n]\n...の結果に終わる[v]",
+    "ph": "rɪˈzʌlt"
+  },
+  {
+    "en": "right-click",
+    "ja": "右クリックする[v]\n右クリック[n]",
+    "ph": "raɪt-klɪk"
+  },
+  {
+    "en": "role",
+    "ja": "役割[n]",
+    "ph": "roʊl"
+  },
+  {
+    "en": "root",
+    "ja": "ルート・根[n]",
+    "ph": "rut"
+  },
+  {
+    "en": "route",
+    "ja": "経路・ルート[n]",
+    "ph": "rut"
+  },
+  {
+    "en": "row",
+    "ja": "行[n]",
+    "ph": "roʊ"
+  }
+]
