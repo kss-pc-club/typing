@@ -1,0 +1,157 @@
+[
+  {
+    "en": "save",
+    "ja": "保存する・セーブする[v]",
+    "ph": "seɪv"
+  },
+  {
+    "en": "scan",
+    "ja": "スキャンする・走査する[v]",
+    "ph": "skæn"
+  },
+  {
+    "en": "schedule",
+    "ja": "予定・スケジュール[n]\n予定する・スケジュールを組む[v]",
+    "ph": "ˈskɛʤʊl"
+  },
+  {
+    "en": "screen",
+    "ja": "画面・スクリーン[n]",
+    "ph": "skrin"
+  },
+  {
+    "en": "script",
+    "ja": "スクリプト・台本[n]",
+    "ph": "skrɪpt"
+  },
+  {
+    "en": "scroll",
+    "ja": "スクロールする[v]\n渦巻き・巻物[n]",
+    "ph": "skroʊl"
+  },
+  {
+    "en": "search",
+    "ja": "検索する[v]\n検索[n]",
+    "ph": "sɜrʧ"
+  },
+  {
+    "en": "security",
+    "ja": "セキュリティ・警備・安全[n]",
+    "ph": "sɪˈkjʊrəti"
+  },
+  {
+    "en": "select",
+    "ja": "選択する[v]",
+    "ph": "səˈlɛkt"
+  },
+  {
+    "en": "server",
+    "ja": "サーバー・給仕人[n]",
+    "ph": "ˈsɜrvər"
+  },
+  {
+    "en": "setting",
+    "ja": "設定・セッティング[n]",
+    "ph": "ˈsɛtɪŋ"
+  },
+  {
+    "en": "shape",
+    "ja": "形状・姿[n]",
+    "ph": "ʃeɪp"
+  },
+  {
+    "en": "share",
+    "ja": "共有する・シェアする[v]",
+    "ph": "ʃɛr"
+  },
+  {
+    "en": "shortcut",
+    "ja": "ショートカット・近道[n]",
+    "ph": "ˈʃɔrtˌkʌt"
+  },
+  {
+    "en": "sign",
+    "ja": "署名[n]\nサインインする(sign in)・サインアウトする(sign out)[v]",
+    "ph": "saɪn"
+  },
+  {
+    "en": "skip",
+    "ja": "スキップする・跳ね回る・飛ばす[v]",
+    "ph": "skɪp"
+  },
+  {
+    "en": "sort",
+    "ja": "並び変える・ソートする[v]",
+    "ph": "sɔrt"
+  },
+  {
+    "en": "source",
+    "ja": "ソース・情報源[n]",
+    "ph": "sɔrs"
+  },
+  {
+    "en": "specific",
+    "ja": "特定の[adj]",
+    "ph": "spəˈsɪfɪk"
+  },
+  {
+    "en": "specify",
+    "ja": "指定する・特定する[v]",
+    "ph": "ˈspɛsəˌfaɪ"
+  },
+  {
+    "en": "state",
+    "ja": "状態・州・国家[n]",
+    "ph": "steɪt"
+  },
+  {
+    "en": "status",
+    "ja": "状態・ステータス・身分[n]",
+    "ph": "ˈstætəs"
+  },
+  {
+    "en": "step",
+    "ja": "ステップ・手順[n]",
+    "ph": "stɛp"
+  },
+  {
+    "en": "store",
+    "ja": "保存する・格納する[v]\n店・蓄え[n]",
+    "ph": "stɔr"
+  },
+  {
+    "en": "string",
+    "ja": "文字列・一続き・ひも[n]",
+    "ph": "strɪŋ"
+  },
+  {
+    "en": "submit",
+    "ja": "提出する・送信する[v]",
+    "ph": "səbˈmɪt"
+  },
+  {
+    "en": "successful",
+    "ja": "成功した[adj]",
+    "ph": "səkˈsɛsfəl"
+  },
+  {
+    "en": "supply",
+    "ja": "供給する[v]\n配給・供給量[n]",
+    "ph": "səˈplaɪ"
+  },
+  {
+    "en": "support",
+    "ja": "サポートする・支援する[v]\n支持・支柱・サポート[n]",
+    "ph": "səˈpɔrt"
+  },
+  {
+    "en": "switch",
+    "ja": "切り替える[v]\nスイッチ[n]",
+    "ph": "swɪʧ"
+  },
+  {
+    "en": "system",
+    "ja": "システム[n]",
+    "ph": "ˈsɪstəm"
+  }
+]
