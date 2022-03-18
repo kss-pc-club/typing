@@ -1,0 +1,102 @@
+[
+  {
+    "en": "padding",
+    "ja": "パディング・詰め物[n]",
+    "ph": "ˈpædɪŋ"
+  },
+  {
+    "en": "parenthesis",
+    "ja": "丸かっこ[n]",
+    "ph": "pəˈrɛnθəsɪs"
+  },
+  {
+    "en": "parse",
+    "ja": "パースする・解析する[v]",
+    "ph": "pɑrs"
+  },
+  {
+    "en": "payload",
+    "ja": "ペイロード[n]\n伝送されるデータの本体のこと。",
+    "ph": "ˈpeɪˌloʊd"
+  },
+  {
+    "en": "permit",
+    "ja": "許可する[v]",
+    "ph": "pərˈmɪt"
+  },
+  {
+    "en": "persistence",
+    "ja": "永続化[n]",
+    "ph": "pərˈsɪstəns"
+  },
+  {
+    "en": "placeholder",
+    "ja": "プレースホルダー・代用語[n]",
+    "ph": "pleɪs ˈhoʊldər"
+  },
+  {
+    "en": "plugin",
+    "ja": "プラグイン[n]",
+    "ph": "plʌg ɪn"
+  },
+  {
+    "en": "populate",
+    "ja": "自動入力する[v]",
+    "ph": "ˈpɑpjəˌleɪt"
+  },
+  {
+    "en": "preference",
+    "ja": "プリファレンス・ユーザー設定[n]",
+    "ph": "ˈprɛfərəns"
+  },
+  {
+    "en": "preferred",
+    "ja": "優先の・好みの[adj]",
+    "ph": "prəˈfɜrd"
+  },
+  {
+    "en": "prefix",
+    "ja": "接頭辞[n]",
+    "ph": "ˈprifɪks"
+  },
+  {
+    "en": "priority",
+    "ja": "優先順位[n]",
+    "ph": "praɪˈɔrəti"
+  },
+  {
+    "en": "private",
+    "ja": "プライベートな・非公開の[adj]",
+    "ph": "ˈpraɪvət"
+  },
+  {
+    "en": "progress",
+    "ja": "進行状況・進捗[n]",
+    "ph": "ˈprɑˌgrɛs"
+  },
+  {
+    "en": "protocol",
+    "ja": "プロトコル[n]",
+    "ph": "ˈproʊtəˌkɑl"
+  },
+  {
+    "en": "prototype",
+    "ja": "プロトタイプ・原型[n]",
+    "ph": "ˈproʊtəˌtaɪp"
+  },
+  {
+    "en": "provider",
+    "ja": "プロバイダー・提供者[n]",
+    "ph": "prəˈvaɪdər"
+  },
+  {
+    "en": "provision",
+    "ja": "プロビジョニング・用意[n]",
+    "ph": "prəˈvɪʒən"
+  },
+  {
+    "en": "proxy",
+    "ja": "プロキシ",
+    "ph": "ˈprɑksi"
+  }
+]
