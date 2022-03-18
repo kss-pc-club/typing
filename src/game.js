@@ -29,7 +29,7 @@ const formatSec = t => {
 const mainGame = () => {
 	const fn = e => {
 		// 押すべきキー == 今押されたキー
-		if (nowChar.toLowerCase() === code2char(e.keyCode)) {
+		if (nowChar.toLowerCase() === code2char(e.key)) {
 			datas.correctType++;
 
 			typedChar += nowChar;
@@ -70,6 +70,7 @@ const mainGame = () => {
 			$(".container#main .typed").text(datas.correctType);
 		}
 		else {
+			if (code2char(e.key) === "shift") return;
 			datas.incorrectType++;
 		}
 	};
@@ -98,7 +99,7 @@ const mainGame = () => {
 		// 残り時間があるなら、時間表示
 		$("div.container#main .time span#remTime").text(formatSec(secRemaining--));
 
-		$(".container#main .timeRemainingBar_container progress").attr('value',secRemaining)
+		$(".container#main .timeRemainingBar_container progress").attr('value', secRemaining)
 	}, 100);
 
 	// 最初

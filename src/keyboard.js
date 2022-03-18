@@ -12,26 +12,25 @@ const keyboardGen = () => {
 }
 
 /**
- * @description KeyCode が Char になり得るか検証
- * @param {Number} c KeyCode
- * @returns {Boolean} True or False
- */
-const validateCode = c => (c >= 65 && c <= 90)
-
-/**
  * @description KeyCode -> Char
- * @param {Number} c KeyCode
+ * @param {String} c Key
  * @returns {String} Char
  */
-const code2char = c => validateCode(c) ? ((Number(c) - 55).toString(36)) : "";
+const code2char = c => {
+	if (c === 'Space') return ' ';
+	if (c === 'Backspace') return '\b';
+	if (c === 'Enter') return '\n';
+	if (c === 'Tab') return '\t';
+	return c.toLowerCase();
+}
 
 window.addEventListener("keydown", e => {
 	e.preventDefault();
-	if (validateCode(e.keyCode)) { $(`.key#${code2char(e.keyCode)}`).addClass("pressing"); }
+	$(`.key#${code2char(e.key)}`).addClass("pressing");
 });
 window.addEventListener("keyup", e => {
 	e.preventDefault();
-	if (validateCode(e.keyCode)) { $(`.key#${code2char(e.keyCode)}`).removeClass("pressing"); }
+	$(`.key#${code2char(e.key)}`).removeClass("pressing");
 });
 
-export { keyboardGen, code2char, validateCode }
+export { keyboardGen, code2char }
