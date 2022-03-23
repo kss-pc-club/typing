@@ -65,7 +65,7 @@
    - [x] t
    - [x] u
    - [x] v
-   - [ ] w
+   - [x] w
    - [ ] y
  - [x] acronym (頭字語)
  - [ ] reserved (予約語)
