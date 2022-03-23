@@ -77,7 +77,6 @@ const loadFile = [
 
 	// その他
 	"acronym",
-	"reserved",
 	"short"
 ];
 
@@ -90,7 +89,7 @@ window.database = [];
 const progressbarSet = async p => {
 	const $bar = $("div.container#loader progress");
 	$("div.container#loader p#progressMsg").text(`${p} / ${loadFile.length}`);
-	$bar.attr('value',p);
+	$bar.attr('value', p);
 	await sleep(100);
 }
 
