@@ -1,0 +1,142 @@
+[
+  {
+    "en": "sanitize",
+    "ja": "サニタイズする・消毒する[v]\nプログラム中の文字の特別さを無効化すること",
+    "ph": "ˈsænɪˌtaɪz"
+  },
+  {
+    "en": "scale",
+    "ja": "大きさを変える[v]",
+    "ph": "skeɪl"
+  },
+  {
+    "en": "schema",
+    "ja": "スキーマ・図表[n]",
+    "ph": "skíːmə"
+  },
+  {
+    "en": "scope",
+    "ja": "スコープ・範囲[n]",
+    "ph": "skoʊp"
+  },
+  {
+    "en": "secure",
+    "ja": "セキュアな・安全な[adj]",
+    "ph": "sɪˈkjʊr"
+  },
+  {
+    "en": "separator",
+    "ja": "セパレータ・区切り[n]",
+    "ph": "ˈsɛpəˌreɪtər"
+  },
+  {
+    "en": "sequence",
+    "ja": "シーケンス・連続列[n]",
+    "ph": "ˈsikwəns"
+  },
+  {
+    "en": "serialize",
+    "ja": "シリアル化する[v]",
+    "ph": "ˈsɪˌriəˌlaɪz"
+  },
+  {
+    "en": "session",
+    "ja": "セッション[n]",
+    "ph": "ˈsɛʃən"
+  },
+  {
+    "en": "setup",
+    "ja": "設定・構成・セットアップ[n]",
+    "ph": "ˈsɛˌtʌp"
+  },
+  {
+    "en": "shutdown",
+    "ja": "シャットダウン[n]",
+    "ph": "ˈʃʌtˌdaʊn"
+  },
+  {
+    "en": "signature",
+    "ja": "署名[n]",
+    "ph": "ˈsɪgnəʧər"
+  },
+  {
+    "en": "simplify",
+    "ja": "簡素化する[v]",
+    "ph": "ˈsɪmpləˌfaɪ"
+  },
+  {
+    "en": "snapshot",
+    "ja": "スナップショット・写真[n]",
+    "ph": "ˈsnæpˌʃɑt"
+  },
+  {
+    "en": "socket",
+    "ja": "ソケット・受け口[n]",
+    "ph": "ˈsɑkət"
+  },
+  {
+    "en": "specification",
+    "ja": "仕様書[n]",
+    "ph": "ˌspɛsɪfɪˈkeɪʃən"
+  },
+  {
+    "en": "split",
+    "ja": "分割する[v]",
+    "ph": "splɪt"
+  },
+  {
+    "en": "stack",
+    "ja": "スタック・積み重ね[n]",
+    "ph": "stæk"
+  },
+  {
+    "en": "standalone",
+    "ja": "スタンドアロンな・独立している[adj]",
+    "ph": "stænd əˈloʊn"
+  },
+  {
+    "en": "startup",
+    "ja": "起動・スタートアップ[n]",
+    "ph": "ˈstɑrˌtʌp"
+  },
+  {
+    "en": "static",
+    "ja": "静的な[adj]",
+    "ph": "ˈstætɪk"
+  },
+  {
+    "en": "storage",
+    "ja": "ストレージ・記憶装置[n]",
+    "ph": "ˈstɔrəʤ"
+  },
+  {
+    "en": "stream",
+    "ja": "ストリーム・流れ[n]",
+    "ph": "strim"
+  },
+  {
+    "en": "successfully",
+    "ja": "正常に[adv]",
+    "ph": "səkˈsɛsfəli"
+  },
+  {
+    "en": "suffix",
+    "ja": "接尾辞・サフィックス[n]",
+    "ph": "ˈsʌfɪks"
+  },
+  {
+    "en": "suppress",
+    "ja": "表示しない・抑圧する[v]",
+    "ph": "səˈprɛs"
+  },
+  {
+    "en": "synchronize",
+    "ja": "同期する[v]",
+    "ph": "ˈsɪŋkrəˌnaɪz"
+  },
+  {
+    "en": "syntax",
+    "ja": "構文・シンタックス[n]",
+    "ph": "ˈsɪnˌtæks"
+  }
+]
