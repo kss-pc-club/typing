@@ -1,0 +1,122 @@
+[
+  {
+    "en": "raw",
+    "ja": "生の[adj]",
+    "ph": "rɑ"
+  },
+  {
+    "en": "redirect",
+    "ja": "リダイレクトする・転送する[v]",
+    "ph": "ˌridəˈrɛkt"
+  },
+  {
+    "en": "redundant",
+    "ja": "余分な・冗長な[adj]",
+    "ph": "rɪˈdʌndənt"
+  },
+  {
+    "en": "refresh",
+    "ja": "更新する[v]",
+    "ph": "rɪˈfrɛʃ"
+  },
+  {
+    "en": "register",
+    "ja": "登録する[v]",
+    "ph": "ˈrɛʤɪstər"
+  },
+  {
+    "en": "registration",
+    "ja": "登録[n]",
+    "ph": "ˌrɛʤɪˈstreɪʃən"
+  },
+  {
+    "en": "registry",
+    "ja": "レジストリ・登録所[n]",
+    "ph": "ˈrɛʤɪstri"
+  },
+  {
+    "en": "reload",
+    "ja": "再読み込みする・リロードする[v]",
+    "ph": "riˈloʊd"
+  },
+  {
+    "en": "remote",
+    "ja": "遠隔の・リモートの[adj]",
+    "ph": "rɪˈmoʊt"
+  },
+  {
+    "en": "removal",
+    "ja": "削除・除去[n]",
+    "ph": "rɪˈmuvəl"
+  },
+  {
+    "en": "render",
+    "ja": "描画する・レンダリングする[v]",
+    "ph": "ˈrɛndər"
+  },
+  {
+    "en": "repository",
+    "ja": "リポジトリ[n]",
+    "ph": "riˈpɑzəˌtɔri"
+  },
+  {
+    "en": "represent",
+    "ja": "表す[v]",
+    "ph": "ˌrɛprəˈzɛnt"
+  },
+  {
+    "en": "representation",
+    "ja": "表現[n]",
+    "ph": "ˌrɛprəzɛnˈteɪʃən"
+  },
+  {
+    "en": "reserve",
+    "ja": "予約する・確保する[v]",
+    "ph": "rɪˈzɜrv"
+  },
+  {
+    "en": "resize",
+    "ja": "サイズ変更する[v]",
+    "ph": "ˌriˈsaɪz"
+  },
+  {
+    "en": "resolution",
+    "ja": "解像度・精度・解決[n]",
+    "ph": "ˌrɛzəˈluʃən"
+  },
+  {
+    "en": "resolve",
+    "ja": "解決する[v]",
+    "ph": "riˈzɑlv"
+  },
+  {
+    "en": "restore",
+    "ja": "復元する[v]",
+    "ph": "rɪˈstɔr"
+  },
+  {
+    "en": "restriction",
+    "ja": "制限[n]",
+    "ph": "riˈstrɪkʃən"
+  },
+  {
+    "en": "retrieve",
+    "ja": "取得する[v]",
+    "ph": "rɪˈtriv"
+  },
+  {
+    "en": "revert",
+    "ja": "以前の状態に戻す[v]",
+    "ph": "rɪˈvɜrt"
+  },
+  {
+    "en": "revision",
+    "ja": "改訂・リビジョン[n]",
+    "ph": "riˈvɪʒən"
+  },
+  {
+    "en": "runtime",
+    "ja": "実行時・ランタイム[n]",
+    "ph": "rʌn taɪm"
+  }
+]
