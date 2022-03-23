@@ -1,0 +1,42 @@
+[
+  {
+    "en": "valid",
+    "ja": "有効な[adj]",
+    "ph": "ˈvæləd"
+  },
+  {
+    "en": "validate",
+    "ja": "検証する[v]",
+    "ph": "ˈvælədeɪt"
+  },
+  {
+    "en": "validation",
+    "ja": "妥当性の確認・検証[n]",
+    "ph": "ˌvæləˈdeɪʃən"
+  },
+  {
+    "en": "verbose",
+    "ja": "詳細な[adj]",
+    "ph": "vɚːbóʊs"
+  },
+  {
+    "en": "verify",
+    "ja": "妥当性を確認する・認証する[v]",
+    "ph": "ˈvɛrəˌfaɪ"
+  },
+  {
+    "en": "virtual",
+    "ja": "仮想の[adj]",
+    "ph": "ˈvɜrʧuəl"
+  },
+  {
+    "en": "visibility",
+    "ja": "可視性・可視範囲[n]",
+    "ph": "ˌvɪzəˈbɪlɪti"
+  },
+  {
+    "en": "visible",
+    "ja": "表示できる・目に見える[adj]",
+    "ph": "ˈvɪzəbəl"
+  }
+]
