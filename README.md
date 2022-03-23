@@ -10,7 +10,7 @@
 ## 感謝
 
 メイン開発者: [Asa](https://github.com/a01sa01to)<br>
-データベース: [Globalization Design Institute](https://progeigo.org/learning/essential-words-600-plus/) v2019<br>
+データベース: [Globalization Design Institute](https://progeigo.org/learning/essential-words-600-plus/) v2020-01<br>
 貢献者: [StasyCat](https://github.com/StasyCat)<br>
 貢献者: [omasakun](https://github.com/omasakun)
 
