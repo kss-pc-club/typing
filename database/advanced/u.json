@@ -1,0 +1,57 @@
+[
+  {
+    "en": "unauthorized",
+    "ja": "権限のない[adj]",
+    "ph": "əˈnɔθəˌraɪzd"
+  },
+  {
+    "en": "unavailable",
+    "ja": "利用できない[adj]",
+    "ph": "ˌʌnəˈveɪləbəl"
+  },
+  {
+    "en": "undefined",
+    "ja": "定義されていない[adj]",
+    "ph": "ˌʌndɪˈfaɪnd"
+  },
+  {
+    "en": "unexpected",
+    "ja": "予期しない[adj]",
+    "ph": "ˌʌnɪkˈspɛktɪd"
+  },
+  {
+    "en": "unique",
+    "ja": "一意の・固有の・ユニークな[adj]",
+    "ph": "juˈnik"
+  },
+  {
+    "en": "unknown",
+    "ja": "不明な[adj]",
+    "ph": "ənˈnoʊn"
+  },
+  {
+    "en": "unnecessary",
+    "ja": "不要な[adj]",
+    "ph": "ənˈnɛsəˌsɛri"
+  },
+  {
+    "en": "unresolved",
+    "ja": "未解決な[adj]",
+    "ph": "ənrɪˈzɑlvd"
+  },
+  {
+    "en": "unsupported",
+    "ja": "非対応の・サポートされていない[adj]",
+    "ph": "ənsəˈpɔrtɪd"
+  },
+  {
+    "en": "usage",
+    "ja": "利用・使用[n]",
+    "ph": "ˈjusəʤ"
+  },
+  {
+    "en": "username",
+    "ja": "ユーザー名[n]",
+    "ph": "ˈjuzər neɪm"
+  }
+]
