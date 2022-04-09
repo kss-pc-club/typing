@@ -3,7 +3,7 @@ import { sleep, fade } from "./commonFunc";
 import { scoreShow } from "./score";
 import { code2char } from "./keyboard";
 
-const time = 3000;  // 5min00.0s
+const time = 300;  // 5min00s
 let secRemaining = time;
 let datas = {
 	"correctType": 0,
@@ -19,10 +19,8 @@ let remainingChar = "";
  * @returns {String} ${min}分${sec}秒
  */
 const formatSec = t => {
-	const min = Math.floor(t / 600);
-	let sec = (t % 600) / 10;
-	sec = (sec < 10) ? "0" + String(sec) : String(sec);
-	sec += (Number(sec) % 1 === 0) ? ".0" : "";
+	const min = Math.floor(t / 60);
+	const sec = String(t % 60).padStart(2, "0");
 	return `${min}分${sec}秒`;
 }
 
@@ -100,7 +98,7 @@ const mainGame = () => {
 		$("div.container#main .time span#remTime").text(formatSec(secRemaining--));
 
 		$(".container#main .timeRemainingBar_container progress").attr('value', secRemaining)
-	}, 100);
+	}, 1000);
 
 	// 最初
 	const rand = Math.round(Math.random() * window.database.length);
