@@ -28,7 +28,7 @@ jobs:
       - name: Setup Nodejs
         uses: actions/setup-node@v3.4.1
         with:
-          cache: true
+          cache: "npm"
           cache-dependency-path: "package-lock.json"
       - name: Install deps
         run: npm ci
