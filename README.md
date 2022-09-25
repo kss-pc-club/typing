@@ -1,4 +1,4 @@
-# KSS Typing (WIP)
+# KSS Typing
 
 ## これは何？
 
@@ -10,7 +10,7 @@
 ## 感謝
 
 メイン開発者: [Asa](https://github.com/a01sa01to)<br>
-データベース: [Globalization Design Institute](https://progeigo.org/learning/essential-words-600-plus/) v2020-08<br>
+データベース: [Globalization Design Institute](https://progeigo.org/learning/essential-words-600-plus/) v2021-08<br>
 貢献者: [StasyCat](https://github.com/StasyCat)<br>
 貢献者: [omasakun](https://github.com/omasakun)
 
@@ -19,6 +19,6 @@
 MITライセンス下により、このソフトウェアは提供されています。<br>
 [LICENSE](https://github.com/kss-pc-club/typing/blob/master/LICENSE) ファイルをご覧ください。（英語）
 
-## 古河チューターの方へ()
+## 古河チューター(?) の方へ
 @KSS-PC-Club に入っていれば、誰でもこのソフトウェアに貢献できます。<br>
 まずはForkして、Pull Requestを送ってみてください！
